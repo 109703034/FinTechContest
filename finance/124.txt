@@ -6,23 +6,23 @@
 提供特定產能予本公司。
 訴訟請求之或有項目
 1. Nippon Telegraph and Telephone Corporation (以下稱「NTT」) 與 Essential WiFi,
-LLC (以下稱「EWF」)於民國一○九年三月二十五日向美國西德州地方法院對
+LLC (以下稱「EWF」)於民國一○9年3月25日向美國西德州地方法院對
 聯發科及子公司 MediaTek USA Inc.提起專利侵權訴訟，主張其侵害美國專利
 權(專利號碼：,,及)。本公司經評估前述
 事件對本公司及子公司 MediaTek USA Inc.目前之營運，尚不致產生重大影響。
 2. Koninklijke Philips N.V.與 Philips North America LLC (以下合稱「Philips」)於民
-國一○九年九月十七日向美國德拉瓦州地方法院對聯發科及子公司 MediaTek
+國一○9年9月17日向美國德拉瓦州地方法院對聯發科及子公司 MediaTek
 USA Inc.提起專利侵權訴訟，主張其侵害美國專利權(專利號碼：及)。本公司經評估前述事件對本公司及子公司 MediaTek USA Inc.目前
 之營運，尚不致產生重大影響。
-3. Ocean Semiconductor LLC(以下稱「Ocean」)於民國一○九年十二月三十一日向
+3. Ocean Semiconductor LLC(以下稱「Ocean」)於民國一○9年12月31日向
 美國西德州地方法院對聯發科及子公司 MediaTek USA Inc.提起專利侵權訴訟，
 主張其侵害美國專利權(專利號碼：,,,,,及)。本公司經評估前述事件對本公司及子公司
 MediaTek USA Inc.目前之營運，尚不致產生重大影響。
-4. DivX, LLC (以下稱「DivX」)於民國一一○年八月十一日向美國東德州地方法
+4. DivX, LLC (以下稱「DivX」)於民國一一○年8月11日向美國東德州地方法
 院對聯發科及子公司 MediaTek Singapore Pte. Ltd.提起訴訟主張其違約。法院
-依兩造合意於民國一一一年一月二十八日，駁回對聯發科及子公司 MediaTek
+依兩造合意於2022年 民國111年1月28日，駁回對聯發科及子公司 MediaTek
 Singapore Pte. Ltd.之訴訟。
-5. NXP USA INC. (以下稱「NXP」)於民國一一○年八月二十四日向美國東德州地
+5. NXP USA INC. (以下稱「NXP」)於民國一一○年8月24日向美國東德州地
 方法院對聯發科及子公司 MediaTek USA Inc.提起專利侵權訴訟，主張其侵害
 美國專利權(專利號碼：,及)。本公司經評估前
 述事件對本公司及子公司 MediaTek USA Inc.目前之營運，尚不致產生重大影
