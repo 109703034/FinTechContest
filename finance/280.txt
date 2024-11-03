@@ -1,4 +1,4 @@
-(三)國際會計準則理事會已發布但尚未經金管會認可之國際財務報導準則之影
+ 國際會計準則理事會已發布但尚未經金管會認可之國際財務報導準則之影
 響
 下表彙列國際會計準則理事會已發布但尚未納入金管會認可之國際財務報
 導準則之新發布、修正及修訂之準則及解釋：
@@ -7,17 +7,12 @@
 四、重大會計政策之彙總說明
 重大會計政策除遵循聲明、編製基礎、合併基礎及新增部分說明如下，餘與民國
 110 年度合併財務報表 相同。除另有說明外，此等政策在所有報導期間一
-致地適用。
-(一)遵循聲明
+致地適用。 遵循聲明
 1.本合併財務報告係依據證券發行人財務報告編製準則與金管會認可之國
 際會計準則第 34 號「期中財務報導」編製。
-2.本合併財務報告應併同民國 110 年度合併財務報告閱讀。
-(二)編製基礎
-1.除下列重要項目外，本合併財務報告係按歷史成本編製：
-(1)按公允價值衡量之透過損益按公允價值衡量之金融資產及負債(包括
-衍生工具)。
-(2)按公允價值衡量之透過其他綜合損益按公允價值衡量之金融資產。
-(3)按退休基金資產減除確定福利義務現值之淨額認列之確定福利負債。
+2.本合併財務報告應併同民國 110 年度合併財務報告閱讀。 編製基礎
+1.除下列重要項目外，本合併財務報告係按歷史成本編製： 按公允價值衡量之透過損益按公允價值衡量之金融資產及負債(包括
+衍生工具)。 按公允價值衡量之透過其他綜合損益按公允價值衡量之金融資產。 按退休基金資產減除確定福利義務現值之淨額認列之確定福利負債。
 國
 國
 國
@@ -308,23 +303,17 @@
 告(以下簡稱 IFRSs)之財務報告需要使用一些重要會計估計，在應用本集
 團的會計政策過程中亦需要管理階層運用其判斷，涉及高度判斷或複雜
 性之項目，或涉及合併財務報表之重大假設及估計之項目，請詳 說
-明。
-(三)合併基礎
-1.合併財務報告編製原則
-(1)本集團將所有子公司納入合併財務報告編製之個體。子公司指受本集
+明。 合併基礎
+1.合併財務報告編製原則 本集團將所有子公司納入合併財務報告編製之個體。子公司指受本集
 團控制之個體（包括結構型個體），當本集團暴露於來自對該個體之參
 與之變動報酬或對該等變動報酬享有權利，且透過對該個體之權力有
 能力影響該等報酬時，本集團即控制該個體。子公司自本集團取得控
-制之日起納入合併財務報表，於喪失控制之日起終止合併。
-(2)集團內公司間之交易、餘額及未實現損益業已銷除。子公司之會計政
-策與本集團採用之政策一致。
-(3)損益及其他綜合損益各組成部分歸屬於母公司業主及非控制權益；綜
+制之日起納入合併財務報表，於喪失控制之日起終止合併。 集團內公司間之交易、餘額及未實現損益業已銷除。子公司之會計政
+策與本集團採用之政策一致。 損益及其他綜合損益各組成部分歸屬於母公司業主及非控制權益；綜
 合損益總額亦歸屬於母公司業主及非控制權益，即使因而導致非控制
-權益發生虧損餘額。
-(4)對子公司持股之變動若未導致喪失控制（與非控制權益之交易），係作
+權益發生虧損餘額。 對子公司持股之變動若未導致喪失控制（與非控制權益之交易），係作
 為權益交易處理，亦即視為與業主間進行之交易。非控制權益之調整
-金額與所支付或收取對價之公允價值間之差額係直接認列於權益。
-(5)當集團喪失對子公司之控制，對前子公司之剩餘投資係按公允價值重
+金額與所支付或收取對價之公允價值間之差額係直接認列於權益。 當集團喪失對子公司之控制，對前子公司之剩餘投資係按公允價值重
 新衡量，並作為原始認列金融資產之公允價值或原始認列投資關聯企
 業或合資之成本，公允價值與帳面金額之差額認列為當期損益。對於
 先前認列於其他綜合損益與該子公司有關之所有金額，其會計處理與
@@ -335,75 +324,48 @@
 2.列入合併財務報告之子公司：
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-1. 台達電子工業股 Delta International 投資事業(註14)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 台達電子工業股 Delta International 投資事業(註14)
 份有限公司 Holding Limited
-B.V. (DIH)
-2. 〃 Delta Networks 〃Holding Limited
-(DNH)
-3. 〃 Delta Electronics 經營電源、視訊(Netherlands) 、零組件、機電
+B.V. (DIH) 〃 Delta Networks 〃Holding Limited
+(DNH) 〃 Delta Electronics 經營電源、視訊(Netherlands) 、零組件、機電
 B.V.(DEN) 等產品及材料之
-買賣
-4. 〃 乾坤科技股份有限公 薄膜光電元件等司(乾坤) 之研究、開發、
+買賣 〃 乾坤科技股份有限公 薄膜光電元件等司(乾坤) 之研究、開發、
 生產、製造與銷
-售
-5. 〃 達爾生技股份有限公 醫療器材製造、(註1)
-司(達爾) 批發與銷售 (註2)
-6. 〃 台達資本股份有限公 投資事業司(台達資本)
-7. 〃 Delta Electronics 研發、經營及銷Int'l (Singapore) 售電子產品
-Pte. Ltd. (DEIL-SG)
-8. 〃 展茂光電股份有限公 租賃服務等司(展茂)
-9. 台達電子工業股 Delta America Ltd. 投資事業份有限公司、DEN (DAL)
-10. DEN Delta Electronics 投資事業及提供(H.K.) Ltd. (DHK) 作業管理服務
-11. DIH DEI Logistics (USA) 提供海外發貨倉Corp.(ALI) 儲作業服務
+售 〃 達爾生技股份有限公 醫療器材製造、(註1)
+司(達爾) 批發與銷售 (註2) 〃 台達資本股份有限公 投資事業司(台達資本) 〃 Delta Electronics 研發、經營及銷Int'l (Singapore) 售電子產品
+Pte. Ltd. (DEIL-SG) 〃 展茂光電股份有限公 租賃服務等司(展茂) 台達電子工業股 Delta America Ltd. 投資事業份有限公司、DEN (DAL) DEN Delta Electronics 投資事業及提供(H.K.) Ltd. (DHK) 作業管理服務 DIH DEI Logistics (USA) 提供海外發貨倉Corp.(ALI) 儲作業服務
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-12. DIH Delta Electronics 經營電源、視訊(註2)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DIH Delta Electronics 經營電源、視訊(註2)
 (Japan), Inc. (DEJ) 、零組件、機電
 等產品及材料之
-買賣
-13. DEN Drake 投資事業Investment (HK)
+買賣 DEN Drake 投資事業Investment (HK)
 Limited
-(Drake-HK)
-14. DGSG、Drake- 中達電通股份 經營不斷電式電HK、Boom 有限公司 源供應器等電子
-(中達電通) 產品之銷售業務
-15. DIH Vivitek Corporation 經營投影機等產 - -(註1)
-(Vivitek) 品及材料之買賣 (註3)
-16. DEN Delta Greentech SGP 投資事業Pte. Ltd.
-(DGSG)
-17. DIH Delta Electronics 維修中心及提供(註1)
+(Drake-HK) DGSG、Drake- 中達電通股份 經營不斷電式電HK、Boom 有限公司 源供應器等電子
+(中達電通) 產品之銷售業務 DIH Vivitek Corporation 經營投影機等產 (註1)
+(Vivitek) 品及材料之買賣 (註3) DEN Delta Greentech SGP 投資事業Pte. Ltd.
+(DGSG) DIH Delta Electronics 維修中心及提供(註1)
 Europe Ltd. 支援服務 (註2)
-(DEU)
-18. DEN Boom Treasure 投資事業Limited (Boom)
-19. DIH Apex Investment 〃 - -(註3)
+(DEU) DEN Boom Treasure 投資事業Limited (Boom) DIH Apex Investment 〃 (註3)
 (HK) Limited
-(Apex-HK)
-20. 〃 Galaxy Star 〃 - -(註16)
+(Apex-HK) 〃 Galaxy Star 〃 (註16)
 Investment (HK)
 Limited
-(Galaxy Star-HK)
-21. DHK 台達電子(東莞) 經營變壓器及散(註11)
+(Galaxy Star-HK) DHK 台達電子(東莞) 經營變壓器及散(註11)
 有限公司 熱等電子產品之
 (台達電子東莞) 製造及銷售業務
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-22. DHK 台達電子電源(東莞) 經營電源供應器 - -(註11)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DHK 台達電子電源(東莞) 經營電源供應器 (註11)
 有限公司 等電子產品之製
-(台達電子電源) 造及銷售業務
-23. 〃 台達電子企業管理(上 產品外觀設計之海)有限公司 技術服務及管理
+(台達電子電源) 造及銷售業務 〃 台達電子企業管理(上 產品外觀設計之海)有限公司 技術服務及管理
 (台達企管) 諮詢及各類電子
-產品分銷等業務
-24. 〃 中達電子(江蘇) 經營變壓器及電有限公司 源供應器等電子
+產品分銷等業務 〃 中達電子(江蘇) 經營變壓器及電有限公司 源供應器等電子
 (中達江蘇) 產品之製造及銷
-售業務
-25. 〃 中達電子(蕪湖) 經營LED燈源及有限公司 電源供應器等電
+售業務 〃 中達電子(蕪湖) 經營LED燈源及有限公司 電源供應器等電
 (中達蕪湖) 子產品之製造及
-銷售業務
-26. 〃 台達電子(郴州) 經營變壓器等電有限公司 子產品之製造及
-(台達電子郴州) 銷售業務
-27. 〃 華豐電子科技(蕪湖) 技術服務、技術(註1)
+銷售業務 〃 台達電子(郴州) 經營變壓器等電有限公司 子產品之製造及
+(台達電子郴州) 銷售業務 〃 華豐電子科技(蕪湖) 技術服務、技術(註1)
 有限公司 開發、技術諮
 (華豐蕪湖) 詢、技術交流、
 技術轉讓、技術
@@ -420,49 +382,34 @@ Limited
 出口
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-28. DHK、DIH Delta Electronics 工業自動化產品(註1)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DHK、DIH Delta Electronics 工業自動化產品(註1)
 International 及通訊設備用電 (註2)
 Mexico S.A. DE 源管理系統之銷 (註19)
-C.V.(DEIL-MX) 售
-29. DHK 達而泰(天津)實業有 經營電壓控制器(註1)
+C.V.(DEIL-MX) 售 DHK 達而泰(天津)實業有 經營電壓控制器(註1)
 限公司 等電子產品之製 (註2)
-(達而泰) 造及銷售業務
-30. 〃 台達電子(平潭) 電子產品、節能(註1)
+(達而泰) 造及銷售業務 〃 台達電子(平潭) 電子產品、節能(註1)
 有限公司 設備批發銷售等 (註2)
-(台達電子平潭)
-31. DEJ Addtron Technology 電腦網路及週邊(註2)
+(台達電子平潭) DEJ Addtron Technology 電腦網路及週邊(註2)
 (Japan), Inc. 設備之買賣
-(AT Japan)
-32. 〃 Delta Electronics 經營電源、視訊(註2)
+(AT Japan) 〃 Delta Electronics 經營電源、視訊(註2)
 (Korea), Inc. 、零組件、機電
 (Delta Korea) 等產品及材料之
-買賣
-33. 台達電子郴州 郴州台達科技有限公 經營變壓器等電司 子產品之製造及
-(郴州台達科技) 銷售業務
-34. 台達企管、中達 上海中達能源科技有 合同能源管理、(註1)
+買賣 台達電子郴州 郴州台達科技有限公 經營變壓器等電司 子產品之製造及
+(郴州台達科技) 銷售業務 台達企管、中達 上海中達能源科技有 合同能源管理、(註1)
 電通 限公司 節能技術開發、 (註2)
 (上海中達能源) 節能設備及能源
 管理系統開發、
 諮詢服務及安裝
-銷售等
-35. DNH Delta 投資事業Networks,Inc.
-(DNI Cayman)
-36. DNI Cayman Delta Networks (HK) 〃Limited (DNHK)
+銷售等 DNH Delta 投資事業Networks,Inc.
+(DNI Cayman) DNI Cayman Delta Networks (HK) 〃Limited (DNHK)
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-37. DHK、DNHK/DNHK 達創科技(東莞) 其他無線電廣播(註21)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DHK、DNHK/DNHK 達創科技(東莞) 其他無線電廣播(註21)
 有限公司 接收器及寬頻接
 (達創東莞) 入網通信系統設
 備等產品製造及
-銷售業務
-38. 乾坤 Fairview Assets 投資事業Ltd. (Fairview)
-39. Fairview Grandview Holding 〃Ltd. (Grandview)
-40. Grandview CYNTEC HOLDING (HK) 〃LIMITED (CHK)
-41. 〃 Cyntec 貿易業International Ltd.
-(CIL-Labuan)
-42. CHK 吳江華豐電子 研發、生產、加科技有限公司 工新型電子元器
+銷售業務 乾坤 Fairview Assets 投資事業Ltd. (Fairview) Fairview Grandview Holding 〃Ltd. (Grandview) Grandview CYNTEC HOLDING (HK) 〃LIMITED (CHK) 〃 Cyntec 貿易業International Ltd.
+(CIL-Labuan) CHK 吳江華豐電子 研發、生產、加科技有限公司 工新型電子元器
 (華豐) 件(片式元器
 件、敏感元器
 件、混合積體電
@@ -473,104 +420,72 @@ C.V.(DEIL-MX) 售
 事與本公司生產
 產品同類商品的
 批發及進出口業
-務
-43. 達爾 蘇州爾達醫療 醫療器材製造(註1)
+務 達爾 蘇州爾達醫療 醫療器材製造(註1)
 設備有限公司 、批發與銷售 (註2)
-(蘇州爾達)
-44. DIH ELTEK AS 經營電源供應器等之研發及銷售
+(蘇州爾達) DIH ELTEK AS 經營電源供應器等之研發及銷售
 業務
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-45. DIH Delta Controls 提供樓宇管理與Inc.(DCI) 控制解決方案
-46. 〃 DELTA ELECTRONICS 投資事業(註1)
-HOLDING (USA) INC. (註2)
-47. ELTEK AS ELTEK PAKISTAN 經營電源供應器(註1)
-(PRIVATE) LIMITED 等之銷售業務 (註2)
-48. 〃 Eltek Deutschland 經營電源供應器(註1)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DIH Delta Controls 提供樓宇管理與Inc.(DCI) 控制解決方案 〃 DELTA ELECTRONICS 投資事業(註1)
+HOLDING (USA) INC. (註2) ELTEK AS ELTEK PAKISTAN 經營電源供應器(註1)
+(PRIVATE) LIMITED 等之銷售業務 (註2) 〃 Eltek Deutschland 經營電源供應器(註1)
 GmbH 等之銷售業務及 (註2)
-系統建置業務
-49. Delta Energy Delta Electronics 〃(註4)
+系統建置業務 Delta Energy Delta Electronics 〃(註4)
 Systems (Australia) Pty Ltd
 (Singapore)
-PTE. LTD.
-50. ELTEK AS Eltek Egypt for 經營電源供應器(註1)
-Power Supply S.A.E. 等之銷售業務 (註2)
-51. 〃 Eltek SGS Pvt Ltd. 經營電源供應器(註1)
+PTE. LTD. ELTEK AS Eltek Egypt for 經營電源供應器(註1)
+Power Supply S.A.E. 等之銷售業務 (註2) 〃 Eltek SGS Pvt Ltd. 經營電源供應器(註1)
 等之銷售業務及 (註2)
-系統建置業務
-52. ELTEK AS、Eltek Eltek SGS Mechanics 經營電源供應器(註1)
-SGS Pvt Ltd. Pvt Ltd. 等之銷售業務 (註2)
-53. Delta Eltek Polska Sp. 經營電源供應器 - -(註1)
+系統建置業務 ELTEK AS、Eltek Eltek SGS Mechanics 經營電源供應器(註1)
+SGS Pvt Ltd. Pvt Ltd. 等之銷售業務 (註2) Delta Eltek Polska Sp. 經營電源供應器 (註1)
 Electronics z o.o. 等之銷售業務及 (註5)
 (Poland) Sp. (Eltek Polska) 系統建置業務
-z o.o.
-54. ELTEK AS ELTEK POWER FRANCE 〃(註1)
+z o.o. ELTEK AS ELTEK POWER FRANCE 〃(註1)
 SAS (註2)
-(註8)
-55. 〃 ELTEK LIMITED 投資及貿易業 - -(註1)
+(註8) 〃 ELTEK LIMITED 投資及貿易業 (註1)
 (註17)
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-56. ELTEK AS ELTEK MEA DMCC 經營電源供應器(註1)
-等之銷售業務 (註2)
-57. ELTEK MEA ELTEK KENYA LIMITED 經營電源供應器 -(註1)
-DMCC、ELTEK AS 之銷售業務 (註23)
-58. 〃 ELTEK WEST AFRICA 〃(註1)
-LIMITED (註2)
-59. ELTEK AS Eltek Italia S.r.l. 經營電源供應器(註1)
-等之銷售業務 (註2)
-60. 〃 Delta Electronics 〃(註1)
-(Sweden) AB (註2)
-61. 〃 Eltek Power 〃(註1)
-(UK) Ltd. (註2)
-62. 〃 OOO Eltek 經營電源供應器(註1)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 ELTEK AS ELTEK MEA DMCC 經營電源供應器(註1)
+等之銷售業務 (註2) ELTEK MEA ELTEK KENYA LIMITED 經營電源供應器 -(註1)
+DMCC、ELTEK AS 之銷售業務 (註23) 〃 ELTEK WEST AFRICA 〃(註1)
+LIMITED (註2) ELTEK AS Eltek Italia S.r.l. 經營電源供應器(註1)
+等之銷售業務 (註2) 〃 Delta Electronics 〃(註1)
+(Sweden) AB (註2) 〃 Eltek Power 〃(註1)
+(UK) Ltd. (註2) 〃 OOO Eltek 經營電源供應器(註1)
 等之銷售業務及 (註2)
-系統建置業務
-63. Eltek Eltek Montage GmbH 經營電源供應器(註1)
+系統建置業務 Eltek Eltek Montage GmbH 經營電源供應器(註1)
 Deutschland 之安裝及維修服 (註2)
-GmbH 務業務
-64. DEIL-SG ELTEK POWER 經營電源供應器(註1)
-INCORPORATED 等之銷售業務 (註2)
-65. 〃 ELTEK POWER 〃(註1)
+GmbH 務業務 DEIL-SG ELTEK POWER 經營電源供應器(註1)
+INCORPORATED 等之銷售業務 (註2) 〃 ELTEK POWER 〃(註1)
 CO., LTD. (註2)
-(註6)
-66. 〃 ELTEK POWER 〃(註1)
-(CAMBODIA) LTD. (註2)
-67. 〃 ELTEK POWER 〃(註1)
+(註6) 〃 ELTEK POWER 〃(註1)
+(CAMBODIA) LTD. (註2) 〃 ELTEK POWER 〃(註1)
 (MALAYSIA) SDN. (註2)
 BHD. (註7)
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-68. DHK 易達電源科技(東莞) 開發、生產和銷 - -(註1)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DHK 易達電源科技(東莞) 開發、生產和銷 (註1)
 有限公司 售接入網路通訊 (註18)
 配套智能化電源
 設備及系統，生
 產和銷售再生能
 源配套智能化電
-源設備
-69. DELTA DELTA ELECTRONICS 經營電源供應器ELECTRONICS (USA) INC. 等之製造及銷售
+源設備 DELTA DELTA ELECTRONICS 經營電源供應器ELECTRONICS (USA) INC. 等之製造及銷售
 HOLDING (USA) 業務
-INC.
-70. DELTA DELTA ELECTRONICS 經營電源供應器(註1)
+INC. DELTA DELTA ELECTRONICS 經營電源供應器(註1)
 ELECTRONICS (ARGENTINA) S.R.L. 等之銷售業務 (註2)
-(USA) INC.
-71. DEN、DELTA ELTEK SISTEMAS DE 經營電源供應器(註1)
+(USA) INC. DEN、DELTA ELTEK SISTEMAS DE 經營電源供應器(註1)
 ELECTRONICS ENERGIA INDUSTRIA E 等之製造及銷售 (註2)
-(USA) INC. COMERCIO LTDA. 業務 (註24)
-72. DELTA DELTA ELECTRONICS 經營電源供應器(註1)
+(USA) INC. COMERCIO LTDA. 業務 (註24) DELTA DELTA ELECTRONICS 經營電源供應器(註1)
 ELECTRONICS (PERU) INC. S.R.L. 等之銷售業務 (註2)
 (USA) INC.、
 DELTA
 ELECTRONICS
 HOLDING (USA)
-INC.
-73. DELTA DELTA ELECTRONICS 〃(註1)
+INC. DELTA DELTA ELECTRONICS 〃(註1)
 ELECTRONICS (COLOMBIA) S.A.S. (註2)
-(USA) INC.
-74. DELTA Eltekenergy 〃(註1)
+(USA) INC. DELTA Eltekenergy 〃(註1)
 ELECTRONICS Services, S.A. de (註2)
 (USA) INC.、 C.V.
 DELTA
@@ -579,214 +494,138 @@ HOLDING (USA)
 INC.
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-75. DHK、DIH/DELTA Eltekenergy 經營電源供應器(註1)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DHK、DIH/DELTA Eltekenergy 經營電源供應器(註1)
 ELECTRONICS International 等之銷售業務 (註2)
 (USA) INC.、 de México, S. de (註19)
 DELTA R.L. de C.V.
 ELECTRONICS
 HOLDING (USA)
-INC.
-76. DAL Delta Electronics 經營電子零組件(註1)
-(Americas) Ltd. 之銷售業務 (註2)
-77. 〃 Delta Solar 投資事業(註1)
-Solutions LLC (註2)
-78. Delta Solar DSS-CI LLC 經營太陽能發電 - -(註1)
-Solutions LLC 系統出租 (註12)
-79. 〃 DSS-USF LLC 〃 -(註1)
-(註25)
-80. 乾坤 力林科技股份有 電源管理IC設計(註1)
-限公司(力林) (註2)
-81. 上海中達能源科 上海浦環中達能 能源科技、環保(註1)
+INC. DAL Delta Electronics 經營電子零組件(註1)
+(Americas) Ltd. 之銷售業務 (註2) 〃 Delta Solar 投資事業(註1)
+Solutions LLC (註2) Delta Solar DSS-CI LLC 經營太陽能發電 (註1)
+Solutions LLC 系統出租 (註12) 〃 DSS-USF LLC 〃 -(註1)
+(註25) 乾坤 力林科技股份有 電源管理IC設計(註1)
+限公司(力林) (註2) 上海中達能源科 上海浦環中達能 能源科技、環保(註1)
 技有限公司 源科技有限公司 科技領域技術開 (註2)
 發與諮詢及節能
-設備設計及銷售
-82. DEIL-SG Loy Tec electronics 提供樓宇管理與(註1)
-GmbH (Loy Tec) 控制解決方案 (註2)
-83. DHK 台達智能科技(北京) 機電、電信及電(註1)
-有限公司 路設備安裝 (註2)
-84. 〃 台達電子(西安) 電腦及其週邊設(註1)
-有限公司 備、軟體買賣 (註2)
-85. DIH Delta Electronics 投資事業、經營(註1)
+設備設計及銷售 DEIL-SG Loy Tec electronics 提供樓宇管理與(註1)
+GmbH (Loy Tec) 控制解決方案 (註2) DHK 台達智能科技(北京) 機電、電信及電(註1)
+有限公司 路設備安裝 (註2) 〃 台達電子(西安) 電腦及其週邊設(註1)
+有限公司 備、軟體買賣 (註2) DIH Delta Electronics 投資事業、經營(註1)
 (Switzerland) 電子產品之研發 (註2)
 AG (DECH) 及買賣
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-86. DEN Delta Greentech 經營電子產品之(註1)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DEN Delta Greentech 經營電子產品之(註1)
 Electronics 行銷及銷售業務 (註2)
-Industry LLC
-87. DEN、Delta DELTA GREENTECH 經營電子產品之(註1)
+Industry LLC DEN、Delta DELTA GREENTECH 經營電子產品之(註1)
 Electronics (BRASIL) LTDA. 製造及買賣 (註2)
-(USA) INC. (DGB) (註26)
-88. DECH Delta 經營電子產品之(註1)
+(USA) INC. (DGB) (註26) DECH Delta 經營電子產品之(註1)
 Electronics (Czech 買賣 (註2)
 Republic), spol.
-s.r.o.
-89. 〃 Delta Electronics 〃(註1)
-(Italy) S.r.l. (註2)
-90. 〃 Delta Electronics 〃(註1)
+s.r.o. 〃 Delta Electronics 〃(註1)
+(Italy) S.r.l. (註2) 〃 Delta Electronics 〃(註1)
 (Poland) Sp. (註2)
-z o.o.
-91. 〃 Delta Solutions 〃(註1)
-(Finland) Oy (註2)
-92. 〃 Delta Electronics 〃(註1)
+z o.o. 〃 Delta Solutions 〃(註1)
+(Finland) Oy (註2) 〃 Delta Electronics 〃(註1)
 Solutions (Spain) (註2)
-SL
-93. ELTEK POWER Delta Electronics 〃 - -(註1)
-FRANCE SAS (France) SA (註8)
-94. 台達電子工業股 晶睿通訊股份有 影音壓縮軟體及份有限公司 限公司(晶睿) 編碼、網路影音
+SL ELTEK POWER Delta Electronics 〃 (註1)
+FRANCE SAS (France) SA (註8) 台達電子工業股 晶睿通訊股份有 影音壓縮軟體及份有限公司 限公司(晶睿) 編碼、網路影音
 伺服器、網路攝
 影機及相關零組
-件之製造及銷售
-95. 晶睿、睿盈 睿緻科技股份有 多媒體積體電路 - -(註10)
-限公司(睿緻) 之設計及銷售
-96. 晶睿 Vivotek Holdings, 控股公司Inc.
+件之製造及銷售 晶睿、睿盈 睿緻科技股份有 多媒體積體電路 (註10)
+限公司(睿緻) 之設計及銷售 晶睿 Vivotek Holdings, 控股公司Inc.
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-97. 晶睿 睿盈投資股份有 創投公司限公司(睿盈)
-98. 〃 Vivotek Netherlands 銷售服務B.V.
-99. 〃 Vivotek (Japan) 〃Inc.
-100. Vivotek Vivotek USA, Inc. 網路攝影機及相Holdings, Inc. 關零組件之銷售
-101. 睿盈 Wellstates 投資及商業不動Investment, LLC 產相關業務
-102. 晶睿 歐特斯股份有限 網路攝影機及相公司(歐特斯) 關零組件之銷售
-103. 睿盈 高譽科技股份有 〃限公司(高譽)
-104. 〃 Vivotek Middle East 〃 - -(註15)
-FZCO
-105. 〃 新思代科技股份有限 照明設備之銷售公司(新思代)
-106. DEN DELTA ELECTRONICS 經營電子產品之(註1)
-BRASIL LTDA. 製造及買賣 (註2)
-107. 台達電子工業股 Delta Electronics 電源供應器、其份有限公司、 (Thailand) Public 他電子設備及零
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 晶睿 睿盈投資股份有 創投公司限公司(睿盈) 〃 Vivotek Netherlands 銷售服務B.V. 〃 Vivotek (Japan) 〃Inc. Vivotek Vivotek USA, Inc. 網路攝影機及相Holdings, Inc. 關零組件之銷售 睿盈 Wellstates 投資及商業不動Investment, LLC 產相關業務 晶睿 歐特斯股份有限 網路攝影機及相公司(歐特斯) 關零組件之銷售 睿盈 高譽科技股份有 〃限公司(高譽) 〃 Vivotek Middle East 〃 (註15)
+FZCO 〃 新思代科技股份有限 照明設備之銷售公司(新思代) DEN DELTA ELECTRONICS 經營電子產品之(註1)
+BRASIL LTDA. 製造及買賣 (註2) 台達電子工業股 Delta Electronics 電源供應器、其份有限公司、 (Thailand) Public 他電子設備及零
 DEIL-SG、DIH Company Limited 組件之製造及出
-(DET) 口
-108. DET DET International 投資事業Holding Limited
-109. 〃 Delta Energy 投資事業、貿易Systems (Singapore) 、管理及諮詢業
+(DET) 口 DET DET International 投資事業Holding Limited 〃 Delta Energy 投資事業、貿易Systems (Singapore) 、管理及諮詢業
 PTE. LTD. 務
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-110. DET Delta Green 不斷電式電源供Industrial 應器、太陽能逆
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 DET Delta Green 不斷電式電源供Industrial 應器、太陽能逆
 (Thailand) Co., 變器、電動車充
 Ltd. 電器、資料中心
 之整合、銷售、
 貿易、安裝及服
-務
-111. 〃 Delta Electronics 電子產品買賣(Vietnam) Company
-Limited
-112. DET、Delta DELTA ELECTRONICS 電子產品之製造(註9)
+務 〃 Delta Electronics 電子產品買賣(Vietnam) Company
+Limited DET、Delta DELTA ELECTRONICS 電子產品之製造(註9)
 Energy Systems INDIA MANUFACTURING 及銷售
 (Singapore) PRIVATE LIMITED
-PTE. LTD.
-113. DET DET Logistics (USA) 提供美國境內物International Corporation 流服務
-Holding Limited
-114. 〃 Delta Energy 電子產品研發、Systems (Germany) 行銷及銷售業務
-GmbH
-115. 〃 Delta Energy 電子產品行銷及Systems (India) 銷售業務
-Private Ltd.
-116. DET Delta 電源供應器、電International Electronics 源系統、OEM電
+PTE. LTD. DET DET Logistics (USA) 提供美國境內物International Corporation 流服務
+Holding Limited 〃 Delta Energy 電子產品研發、Systems (Germany) 行銷及銷售業務
+GmbH 〃 Delta Energy 電子產品行銷及Systems (India) 銷售業務
+Private Ltd. DET Delta 電源供應器、電International Electronics 源系統、OEM電
 Holding (Slovakia) 源系統製造及銷
 Limited、Delta s.r.o. 售業務
 Energy Systems
 (Singapore)
-PTE. LTD.
-117. DET Delta Energy 研發International Systems
+PTE. LTD. DET Delta Energy 研發International Systems
 Holding Limited (Romania)
 S.R.L.
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-118. Delta Energy Delta Energy 產權業務Systems Systems
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 Delta Energy Delta Energy 產權業務Systems Systems
 (Germany) GmbH Property (Germany)
-GmbH
-119. Delta Energy Delta Electronics 再生能源產品行(註13)
+GmbH Delta Energy Delta Electronics 再生能源產品行(註13)
 Systems (Holdings) 銷及銷售業務
 (Singapore) Australia Pty Ltd
-PTE. LTD.
-120. 〃 Delta Electronics 非通訊電源系統India Pvt. Ltd. 及不斷電式電源
+PTE. LTD. 〃 Delta Electronics 非通訊電源系統India Pvt. Ltd. 及不斷電式電源
 供應器之製造、
 行銷及銷售不斷
-電式電源供應器
-121. 〃 Delta Electronics 機械及運用於(Myanmar) Co., Ltd. CMP製程之電子
-產品之製造
-122. 〃 Delta Energy 電子產品之研發Systems (UK) Ltd.
-123. 〃 Delta PBA 提供工業自動化 - -(註16)
+電式電源供應器 〃 Delta Electronics 機械及運用於(Myanmar) Co., Ltd. CMP製程之電子
+產品之製造 〃 Delta Energy 電子產品之研發Systems (UK) Ltd. 〃 Delta PBA 提供工業自動化 (註16)
 Engineering 解決方案
-Solutions Co., Ltd.
-124. 〃 Delta Greentech 投資事業 -(註23)
+Solutions Co., Ltd. 〃 Delta Greentech 投資事業 -(註23)
 (Netherlands)
-Cooperatie U.A.
-125. Delta Energy Delta Greentech 〃(註27)
+Cooperatie U.A. Delta Energy Delta Greentech 〃(註27)
 Systems (Netherlands) B.V.
 (Singapore)
 PTE. LTD./Delta
 Greentech
 (Netherlands)
-Cooperatie U.A.
-126. Delta Greentech Delta Energy 電源系統之行銷(Netherlands) Systems LLC 及銷售
+Cooperatie U.A. Delta Greentech Delta Energy 電源系統之行銷(Netherlands) Systems LLC 及銷售
 B.V.
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-127. Delta Greentech Eltek s.r.o. 製造通訊電源系(Netherlands) 統
-B.V.
-128. 〃 Delta Electronics 研發汽車動力及(Automotive) 牽引逆變器
-Americas Inc.
-129. DEN Amerlux, LLC 專用照明系統及(註1)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 Delta Greentech Eltek s.r.o. 製造通訊電源系(Netherlands) 統
+B.V. 〃 Delta Electronics 研發汽車動力及(Automotive) 牽引逆變器
+Americas Inc. DEN Amerlux, LLC 專用照明系統及(註1)
 (Amerlux) 設施之設計及生 (註2)
-產
-130. Amerlux Amerlux Lighting 投資事業(註1)
-Asia, LLC (註2)
-131. Amerlux Amerlux Lighting 〃(註1)
+產 Amerlux Amerlux Lighting 投資事業(註1)
+Asia, LLC (註2) Amerlux Amerlux Lighting 〃(註1)
 Lighting Asia, Hong Kong Limited (註2)
-LLC
-132. Amerlux 廣州埃墨勒施照 燈具、裝飾物品(註1)
+LLC Amerlux 廣州埃墨勒施照 燈具、裝飾物品(註1)
 Lighting Hong 明器具有限公司 之批發 (註2)
-Kong Limited
-133. DIH Digital Projection 投資事業(註1)
+Kong Limited DIH Digital Projection 投資事業(註1)
 International Ltd. (註2)
-(DPI)
-134. DPI Digital Projection 〃(註1)
-Holdings Ltd. (註2)
-135. Digital Digital Projection 經營投影機產品(註1)
+(DPI) DPI Digital Projection 〃(註1)
+Holdings Ltd. (註2) Digital Digital Projection 經營投影機產品(註1)
 Projection Ltd. 之研發及買賣 (註2)
-Holdings Ltd.
-136. Digital Digital Projection 經營投影機產品(註1)
-Projection Ltd. Inc. 之買賣 (註2)
-137. DEN Trihedral 圖控軟體和相關(註1)
+Holdings Ltd. Digital Digital Projection 經營投影機產品(註1)
+Projection Ltd. Inc. 之買賣 (註2) DEN Trihedral 圖控軟體和相關(註1)
 Engineering Limited 工程服務 (註2)
 (Trihedral)
 合併所持股權百分比
 投資公司 子公司 2022年 111年 2021年 110年 2021年 110年
-編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明
-138. Trihedral Trihedral Inc. 圖控軟體和相關(註1)
-工程服務 (註2)
-139. 〃 Trihedral UK 〃(註1)
-Limited (註2)
-140. DIH March Networks 投資事業- (註2)
+編號 名 稱 名 稱 業務性質 3月31日 12月31日 3月31日 說明 Trihedral Trihedral Inc. 圖控軟體和相關(註1)
+工程服務 (註2) 〃 Trihedral UK 〃(註1)
+Limited (註2) DIH March Networks 投資事業- (註2)
 Holdings Ltd. (註9)
-(註20)
-141. March Networks March Networks 安全監控軟硬體- (註2)
-Holdings Ltd. Corporation 和相關工程服務 (註9)
-142. March Networks March Networks, 〃- (註2)
-Corporation Inc. (註9)
-143. 〃 March Networks de 〃- (註2)
-Mexico, S.A.de C.V. (註9)
-144. 〃 March Networks 〃- (註2)
+(註20) March Networks March Networks 安全監控軟硬體- (註2)
+Holdings Ltd. Corporation 和相關工程服務 (註9) March Networks March Networks, 〃- (註2)
+Corporation Inc. (註9) 〃 March Networks de 〃- (註2)
+Mexico, S.A.de C.V. (註9) 〃 March Networks 〃- (註2)
 (Australia) Pty (註9)
-Limited
-145. 〃 March Networks 〃- (註2)
-Limited (註9)
-146. 〃 March Networks 〃- (註2)
+Limited 〃 March Networks 〃- (註2)
+Limited (註9) 〃 March Networks 〃- (註2)
 (Singapore) Pte. (註9)
-Limited
-147. 〃 March Networks B.V. 〃- (註2)
-(註9)
-148. March Networks March Networks 〃- (註2)
-B.V. S.r.l. (註9)
-149. 〃 March Networks 〃- (註2)
-(France) SAS (註9)
-150. DHK 台達電子(重慶)有限 生產新能源汽車- - (註2)
+Limited 〃 March Networks B.V. 〃- (註2)
+(註9) March Networks March Networks 〃- (註2)
+B.V. S.r.l. (註9) 〃 March Networks 〃- (註2)
+(France) SAS (註9) DHK 台達電子(重慶)有限 生產新能源汽車 (註2)
 公司 電子零件及電子 (註22)
 設備電源零件
 (註1) 因不符合重要子公司之定義，其民國 110 年 3 月 31 日之財務報告
@@ -874,13 +713,9 @@ limited (DET)
 資產負債表
 DET
 2022年 111年3月31日 2021年 110年12月31日 2021年 110年3月31日
-流動資產非流動資產 655流動負債 ( 2) ( 2) ( 2)
-非流動負債 ( 3) ( 2) ( 2)
-淨資產總額晶睿
+流動資產非流動資產 655流動負債   非流動負債   淨資產總額晶睿
 2022年 111年3月31日 2021年 110年12月31日 2021年 110年3月31日
-流動資產非流動資產 556流動負債 ( 2) ( 2) ( 1)
-非流動負債 ( 3) ( 3) ( 3)
-淨資產總額綜合損益表
+流動資產非流動資產 556流動負債   非流動負債   淨資產總額綜合損益表
 DET
 2022年 111年1月1日至3月31日 2021年 110年1月1日至3月31日
 收入稅前淨利所得稅費用繼續營業單位本期淨利其他綜合損益(稅後淨額)本期綜合損益總額綜合損益總額歸屬於非控制權益支付予非控制權益股利晶睿
@@ -894,23 +729,19 @@ DET
 2022年 111年1月1日至3月31日 2021年 110年1月1日至3月31日
 營業活動之淨現金流入(出)投資活動之淨現金流出籌資活動之淨現金流(出)入匯率變動對現金及約當現金
 之影響本期現金及約當現金增加
-(減少)數期初現金及約當現金餘額期末現金及約當現金餘額四)員工福利
-1. 短期員工福利
+(減少)數期初現金及約當現金餘額期末現金及約當現金餘額四)員工福利 短期員工福利
 短期員工福利係以預期支付之非折現金額衡量，並於相關服務提供時認
-列為費用。
-2. 退休金
+列為費用。 退休金
 確定福利計畫
 期中期間之退休金成本係採用前一財務年度結束日依精算決定之退休金
 成本率，以年初至當期末為基礎計算。若該結束日後有重大市場變動及
 重大縮減、清償或其他重大一次性事項，則加以調整，並配合前述政策
-揭露相關資訊。
-(五)所得稅
+揭露相關資訊。 所得稅
 期中期間之所得稅費用以估計之年度平均有效稅率應用至期中期間之稅前
 損益計算之，並配合前述政策揭露相關資訊。
 五、重大會計判斷、假設及估計不確定性之主要來源
 本期無重大變動，請參閱民國 110 年度合併財務報表 。
-六、重要會計項目之說明
-(一)現金及約當現金
+六、重要會計項目之說明 現金及約當現金
 2022年 111年3月31日 2021年 110年12月31日 2021年 110年3月31日
 庫存現金支票存款及活期存款 434定期存款 111約當現金 2321.本集團往來之金融機構信用品質良好，且本集團與多家金融機構往來以
 分散信用風險、預期發生違約之可能性甚低。
