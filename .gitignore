@@ -1,3 +1,7 @@
 # .gitignore
 scripts/
+reference/
+__pycache__
+dataset
+pred_retrieve.json
 temp/
