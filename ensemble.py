@@ -42,5 +42,5 @@ if __name__ == "__main__":
         #     pass
     # dump the output_json to a file
     with open("pred_retrieve.json", "w", encoding="utf-8") as file:
-        json.dump(output_json, file, ensure_ascii=False, indent=2)
+        json.dump(output_json, file, ensure_ascii=False, indent=4)
 
