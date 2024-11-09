@@ -299,8 +299,7 @@ if __name__ == "__main__":
 
 ### usage:
 ### cd /home/acaac/FinTech/MidProject_competition/Parse_data
-### python GPT_inference/GPT_retrieve.py -q prelimilary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c faq
-# fin_select
+### python GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c insurance
 ### 
 ### example
 ### cd /home/acaac/FinTech/MidProject_competition/Parse_data/GPT_inference
