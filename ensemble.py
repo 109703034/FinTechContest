@@ -20,12 +20,12 @@ if __name__ == "__main__":
         ans_lcs = lcs_json["answers"][qid-1]["retrieve"]
         ans_embedding = embedding_json["answers"][qid-1]["retrieve"]
         ans_lcs_adv = lcs_adv_json["answers"][qid-1]["retrieve"]
-        if category == "finance":
+        if category == "notfinance":
             ans = {}
             ans["qid"] = qid
             ans["retrieve"] = str(ans_gpt)
             output_json["answers"].append(ans)
-        elif category == "insurance" or category == "faq":
+        elif category == "insurance" or category == "faq" or category == "finance":
             # insurance: GPT*0.4+LCS*0.3+Embedding*0.3
             ans, vote = {}, {}
             ans["qid"] = qid
