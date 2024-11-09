@@ -6,10 +6,10 @@ def load_json(file_path):
         return json.load(file)
 
 if __name__ == "__main__":
-    gpt_json = load_json("./result/example/gpt.json") # 采妍
-    lcs_json = load_json("./result/example/lcs.json") # 翊豪
-    embedding_json = load_json("./result/example/embedding.json") # 詠絜
-    lcs_adv_json = load_json("./result/example/lcs_adv.json") # 靖芸
+    gpt_json = load_json("./result/gpt.json") # 采妍
+    lcs_json = load_json("./result/lcs.json") # 翊豪
+    embedding_json = load_json("./result/faiss.json") # 詠絜
+    lcs_adv_json = load_json("./result/lcs_adv.json") # 靖芸
     questions = load_json("./dataset/preliminary/questions_example.json")["questions"]
     output_json = {"answers": []}
     for question in tqdm(questions):
