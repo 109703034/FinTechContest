@@ -10,7 +10,7 @@ if __name__ == "__main__":
     lcs_json = load_json("./result/lcs.json") # 翊豪
     embedding_json = load_json("./result/faiss.json") # 詠絜
     lcs_adv_json = load_json("./result/lcs_adv.json") # 靖芸
-    questions = load_json("./dataset/preliminary/questions_example.json")["questions"]
+    questions = load_json("./preliminary/questions_preliminary.json")["questions"]
     output_json = {"answers": []}
     for question in tqdm(questions):
     # for question in questions:
