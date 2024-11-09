@@ -10,9 +10,7 @@ if __name__ == "__main__":
     all_json = load_json("pred_GPT_fin_all.json")
     merge_json = {"answers": []}
 
-    for question in tqdm(questions):
-        qid = question["qid"]
-
+    for qid in tqdm(range(301, 601)):
         ans_select = select_json["answers"][qid-1]["retrieve"]
         ans_all = all_json["answers"][qid-1]["retrieve"]
 

@@ -3,8 +3,10 @@ import json
 import argparse
 from tqdm import tqdm
 import re
+import random
 from OpenAI_inference import *
 import sys
+import time
 
 # 載入參考資料，返回一個字典，key為檔案名稱，value為txt檔內容的文本
 def load_data(source_path):
@@ -55,7 +57,7 @@ def get_prompt(qs, source, corpus_dict):
     prompt = f'''
 Q:{qs}
 
-which source-ID is most related to the above question? Only respond with "one source-ID's number" and "confidence index", response format:
+which source-ID is most related to the above question? Only respond with "one source-ID's number" and "confidence index (%)", response format:
 {{
     "answer": "number",  (source-ID)
     "confidence": "number" (%)
@@ -94,9 +96,12 @@ def get_GPTanswer(prompt):
 
         if confidence.endswith('%'):
             confidence = int(confidence.replace('%', ''))
+        elif confidence.isdigit() and 0 <= int(confidence) <= 100:
+            confidence = int(confidence)
+        elif confidence.isdigit() and 0 <= float(confidence) <= 1:
+            confidence = int(float(confidence)* 100)
         else:
-            print("Error: confidence is not a percentage.")
-            confidence = int(float(confidence) * 100)
+            print(f"Error: confidence {confidence} format is incorrect.")
             is_success = False
 
     except Exception as e:
@@ -108,6 +113,7 @@ def get_GPTanswer(prompt):
     return answer, confidence, is_success
 
 if __name__ == "__main__":
+    print(f"Start Time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
     # 使用argparse解析命令列參數
     parser = argparse.ArgumentParser(description='Process some paths and files.')
     parser.add_argument('-q', '--question_path', type=str, required=True, help='讀取發布題目路徑')  # 問題文件的路徑
@@ -163,39 +169,53 @@ if __name__ == "__main__":
 
     for q_dict in qs_ref['questions']:
         if q_dict['category'] == 'finance' and selected_category == 'fin_select':
-            print(f"qid: {q_dict['qid']}")
+            print(f"qid: {q_dict['qid']}, time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
 
             # select source
             selected_source = source_select(q_dict['query'], q_dict['source'], corpus_dict_finance, label_dict_finance)
             unselected_source = list(set(q_dict['source']) - set(selected_source))
             
-            prompt = get_prompt(q_dict['query'], selected_source, corpus_dict_finance)
-            # print(f"prompt: {prompt}")
-            
-            answer, confidence, is_success = get_GPTanswer(prompt)
-            while not is_success:
-                retry = input("The GPT answer was not successful. Do you want to try again? (yes/no): ")
-                if retry.lower() == 'yes':
-                    answer, confidence, is_success = get_GPTanswer(prompt)
-                else:
-                    answer = random.choice(selected_source)
-                    break
-            if confidence < 70:
-                print(f"selected confidence: {confidence} < 70")
-                unseleted_prompt = get_prompt(q_dict['query'], unselected_source, corpus_dict_finance)
-                unseleted_answer, unseleted_confidence, unseleted_is_success = get_GPTanswer(unseleted_prompt)
-                while not unseleted_is_success:
+            if len(selected_source) == 0:
+                prompt = get_prompt(q_dict['query'], unselected_source, corpus_dict_finance)
+                # print(f"prompt: {prompt}")
+                
+                answer, confidence, is_success = get_GPTanswer(prompt)
+                while not is_success:
                     retry = input("The GPT answer was not successful. Do you want to try again? (yes/no): ")
                     if retry.lower() == 'yes':
-                        unseleted_answer, unseleted_confidence, unseleted_is_success = get_GPTanswer(unseleted_prompt)
+                        answer, confidence, is_success = get_GPTanswer(prompt)
                     else:
-                        answer = random.choice(unselected_source)
+                        answer = random.choice(selected_source)
                         break
-                if unseleted_confidence < 70:
-                    print(f"unselected confidence: {unseleted_confidence} < 70")
-                if unseleted_confidence > confidence:
-                    answer = unseleted_answer
-                    confidence = unseleted_confidence
+            else:
+                prompt = get_prompt(q_dict['query'], selected_source, corpus_dict_finance)
+                # print(f"prompt: {prompt}")
+                
+                answer, confidence, is_success = get_GPTanswer(prompt)
+                while not is_success:
+                    retry = input("The GPT answer was not successful. Do you want to try again? (yes/no): ")
+                    if retry.lower() == 'yes':
+                        answer, confidence, is_success = get_GPTanswer(prompt)
+                    else:
+                        answer = random.choice(selected_source)
+                        break
+                if confidence < 70:
+                    print(f"selected confidence: {confidence} < 70")
+                    if len(unselected_source) > 0:
+                        unseleted_prompt = get_prompt(q_dict['query'], unselected_source, corpus_dict_finance)
+                        unseleted_answer, unseleted_confidence, unseleted_is_success = get_GPTanswer(unseleted_prompt)
+                        while not unseleted_is_success:
+                            retry = input("The GPT answer was not successful. Do you want to try again? (yes/no): ")
+                            if retry.lower() == 'yes':
+                                unseleted_answer, unseleted_confidence, unseleted_is_success = get_GPTanswer(unseleted_prompt)
+                            else:
+                                answer = random.choice(unselected_source)
+                                break
+                        if unseleted_confidence < 70:
+                            print(f"unselected confidence: {unseleted_confidence} < 70")
+                        if unseleted_confidence > confidence:
+                            answer = unseleted_answer
+                            confidence = unseleted_confidence
 
             # 將結果加入字典
             answer_dict['answers'].append({"qid": q_dict['qid'], "retrieve": answer, "confidence": confidence, "source": selected_source})
@@ -205,7 +225,7 @@ if __name__ == "__main__":
             # if q_dict['qid'] != 64:
             #     continue
             
-            print(f"qid: {q_dict['qid']}")
+            print(f"qid: {q_dict['qid']}, time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
             
             prompt = get_prompt(q_dict['query'], q_dict['source'], corpus_dict_finance)
             # print(f"prompt: {prompt}")
@@ -226,7 +246,7 @@ if __name__ == "__main__":
             answer_dict['answers'].append({"qid": q_dict['qid'], "retrieve": answer, "confidence": confidence})
 
         elif q_dict['category'] == 'insurance' and selected_category == 'insurance':
-            print(f"qid: {q_dict['qid']}")
+            print(f"qid: {q_dict['qid']}, time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
 
             prompt = get_prompt(q_dict['query'], q_dict['source'], corpus_dict_insurance)
             # print(f"prompt: {prompt}")
@@ -245,7 +265,7 @@ if __name__ == "__main__":
             answer_dict['answers'].append({"qid": q_dict['qid'], "retrieve": answer, "confidence": confidence})
 
         elif q_dict['category'] == 'faq' and selected_category == 'faq':
-            print(f"qid: {q_dict['qid']}")
+            print(f"qid: {q_dict['qid']}, time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
             corpus_dict_faq = {key: str(value) for key, value in key_to_source_dict.items() if key in q_dict['source']}
 
             prompt = get_prompt(q_dict['query'], q_dict['source'], corpus_dict_faq)
@@ -278,8 +298,9 @@ if __name__ == "__main__":
         print(f"file saved to {output_path}")
 
 ### usage:
-### cd /home/acaac/FinTech/MidProject_competition
-### python GPT_inference/GPT_retrieve.py -q <Q_path> -s . -l label/ -o . 
+### cd /home/acaac/FinTech/MidProject_competition/Parse_data
+### python GPT_inference/GPT_retrieve.py -q prelimilary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c faq
+# fin_select
 ### 
 ### example
 ### cd /home/acaac/FinTech/MidProject_competition/Parse_data/GPT_inference
