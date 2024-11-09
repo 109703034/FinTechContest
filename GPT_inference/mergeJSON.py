@@ -6,16 +6,16 @@ def load_json(file_path):
         return json.load(file)
 
 if __name__ == "__main__":
-    finance_json = load_json("pred_GPT_fin_merge.json.json")
+    finance_json = load_json("pred_GPT_fin_merge.json")
     insurance_json = load_json("pred_GPT_insurance.json")
     faq_json = load_json("pred_GPT_faq.json")
 
     merge_json = {"answers": []}
 
-    for answer in finance_json["answers"]:
+    for answer in insurance_json["answers"]:
         merge_json["answers"].append(answer)
 
-    for answer in insurance_json["answers"]:
+    for answer in finance_json["answers"]:
         merge_json["answers"].append(answer)
 
     for answer in faq_json["answers"]:

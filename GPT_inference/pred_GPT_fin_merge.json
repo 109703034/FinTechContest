@@ -1,0 +1,2104 @@
+{
+    "answers": [
+        {
+            "qid": 301,
+            "retrieve": 328,
+            "confidence": 95,
+            "other_retrieve": 328,
+            "other_confidence": 95
+        },
+        {
+            "qid": 302,
+            "retrieve": 902,
+            "confidence": 90,
+            "other_retrieve": 902,
+            "other_confidence": 85
+        },
+        {
+            "qid": 303,
+            "retrieve": 366,
+            "confidence": 95,
+            "other_retrieve": 366,
+            "other_confidence": 85
+        },
+        {
+            "qid": 304,
+            "retrieve": 142,
+            "confidence": 85,
+            "other_retrieve": 142,
+            "other_confidence": 85
+        },
+        {
+            "qid": 305,
+            "retrieve": 820,
+            "confidence": 95,
+            "other_retrieve": 820,
+            "other_confidence": 85
+        },
+        {
+            "qid": 306,
+            "retrieve": 786,
+            "confidence": 95,
+            "other_retrieve": 786,
+            "other_confidence": 85
+        },
+        {
+            "qid": 307,
+            "retrieve": 309,
+            "confidence": 95,
+            "other_retrieve": 309,
+            "other_confidence": 95
+        },
+        {
+            "qid": 308,
+            "retrieve": 54,
+            "confidence": 85,
+            "other_retrieve": 54,
+            "other_confidence": 85
+        },
+        {
+            "qid": 309,
+            "retrieve": 948,
+            "confidence": 95,
+            "other_retrieve": 948,
+            "other_confidence": 95
+        },
+        {
+            "qid": 310,
+            "retrieve": 456,
+            "confidence": 95,
+            "other_retrieve": 456,
+            "other_confidence": 85
+        },
+        {
+            "qid": 311,
+            "retrieve": 545,
+            "confidence": 95,
+            "other_retrieve": 545,
+            "other_confidence": 90
+        },
+        {
+            "qid": 312,
+            "retrieve": 72,
+            "confidence": 95,
+            "other_retrieve": 72,
+            "other_confidence": 95
+        },
+        {
+            "qid": 313,
+            "retrieve": 448,
+            "confidence": 85,
+            "other_retrieve": 337,
+            "other_confidence": 85
+        },
+        {
+            "qid": 314,
+            "retrieve": 496,
+            "confidence": 30,
+            "other_retrieve": 343,
+            "other_confidence": 20
+        },
+        {
+            "qid": 315,
+            "retrieve": 969,
+            "confidence": 95,
+            "other_retrieve": 969,
+            "other_confidence": 95
+        },
+        {
+            "qid": 316,
+            "retrieve": 265,
+            "confidence": 95,
+            "other_retrieve": 265,
+            "other_confidence": 95
+        },
+        {
+            "qid": 317,
+            "retrieve": 89,
+            "confidence": 85,
+            "other_retrieve": 89,
+            "other_confidence": 70
+        },
+        {
+            "qid": 318,
+            "retrieve": 394,
+            "confidence": 95,
+            "other_retrieve": 325,
+            "other_confidence": 85
+        },
+        {
+            "qid": 319,
+            "retrieve": 457,
+            "confidence": 95,
+            "other_retrieve": 457,
+            "other_confidence": 85
+        },
+        {
+            "qid": 320,
+            "retrieve": 193,
+            "confidence": 95,
+            "other_retrieve": 193,
+            "other_confidence": 85
+        },
+        {
+            "qid": 321,
+            "retrieve": 708,
+            "confidence": 85,
+            "other_retrieve": 708,
+            "other_confidence": 85
+        },
+        {
+            "qid": 322,
+            "retrieve": 26,
+            "confidence": 95,
+            "other_retrieve": 26,
+            "other_confidence": 95
+        },
+        {
+            "qid": 323,
+            "retrieve": 621,
+            "confidence": 95,
+            "other_retrieve": 621,
+            "other_confidence": 90
+        },
+        {
+            "qid": 324,
+            "retrieve": 744,
+            "confidence": 95,
+            "other_retrieve": 744,
+            "other_confidence": 95
+        },
+        {
+            "qid": 325,
+            "retrieve": 196,
+            "confidence": 95,
+            "other_retrieve": 496,
+            "other_confidence": 90
+        },
+        {
+            "qid": 326,
+            "retrieve": 735,
+            "confidence": 95,
+            "other_retrieve": 735,
+            "other_confidence": 95
+        },
+        {
+            "qid": 327,
+            "retrieve": 305,
+            "confidence": 95,
+            "other_retrieve": 305,
+            "other_confidence": 95
+        },
+        {
+            "qid": 328,
+            "retrieve": 462,
+            "confidence": 95,
+            "other_retrieve": 462,
+            "other_confidence": 95
+        },
+        {
+            "qid": 329,
+            "retrieve": 460,
+            "confidence": 85,
+            "other_retrieve": 460,
+            "other_confidence": 70
+        },
+        {
+            "qid": 330,
+            "retrieve": 252,
+            "confidence": 95,
+            "other_retrieve": 252,
+            "other_confidence": 90
+        },
+        {
+            "qid": 331,
+            "retrieve": 740,
+            "confidence": 95,
+            "other_retrieve": 740,
+            "other_confidence": 85
+        },
+        {
+            "qid": 332,
+            "retrieve": 822,
+            "confidence": 65,
+            "other_retrieve": 459,
+            "other_confidence": 60
+        },
+        {
+            "qid": 333,
+            "retrieve": 203,
+            "confidence": 95,
+            "other_retrieve": 203,
+            "other_confidence": 95
+        },
+        {
+            "qid": 334,
+            "retrieve": 751,
+            "confidence": 95,
+            "other_retrieve": 751,
+            "other_confidence": 95
+        },
+        {
+            "qid": 335,
+            "retrieve": 27,
+            "confidence": 95,
+            "other_retrieve": 27,
+            "other_confidence": 95
+        },
+        {
+            "qid": 336,
+            "retrieve": 733,
+            "confidence": 95,
+            "other_retrieve": 733,
+            "other_confidence": 85
+        },
+        {
+            "qid": 337,
+            "retrieve": 956,
+            "confidence": 85,
+            "other_retrieve": 956,
+            "other_confidence": 85
+        },
+        {
+            "qid": 338,
+            "retrieve": 10,
+            "confidence": 95,
+            "other_retrieve": 10,
+            "other_confidence": 95
+        },
+        {
+            "qid": 339,
+            "retrieve": 350,
+            "confidence": 95,
+            "other_retrieve": 350,
+            "other_confidence": 95
+        },
+        {
+            "qid": 340,
+            "retrieve": 868,
+            "confidence": 90,
+            "other_retrieve": 868,
+            "other_confidence": 85
+        },
+        {
+            "qid": 341,
+            "retrieve": 112,
+            "confidence": 90,
+            "other_retrieve": 112,
+            "other_confidence": 70
+        },
+        {
+            "qid": 342,
+            "retrieve": 771,
+            "confidence": 80,
+            "other_retrieve": 771,
+            "other_confidence": 80
+        },
+        {
+            "qid": 343,
+            "retrieve": 436,
+            "confidence": 95,
+            "other_retrieve": 436,
+            "other_confidence": 85
+        },
+        {
+            "qid": 344,
+            "retrieve": 907,
+            "confidence": 95,
+            "other_retrieve": 907,
+            "other_confidence": 95
+        },
+        {
+            "qid": 345,
+            "retrieve": 232,
+            "confidence": 95,
+            "other_retrieve": 232,
+            "other_confidence": 95
+        },
+        {
+            "qid": 346,
+            "retrieve": 317,
+            "confidence": 95,
+            "other_retrieve": 317,
+            "other_confidence": 85
+        },
+        {
+            "qid": 347,
+            "retrieve": 38,
+            "confidence": 95,
+            "other_retrieve": 38,
+            "other_confidence": 85
+        },
+        {
+            "qid": 348,
+            "retrieve": 18,
+            "confidence": 95,
+            "other_retrieve": 18,
+            "other_confidence": 85
+        },
+        {
+            "qid": 349,
+            "retrieve": 445,
+            "confidence": 95,
+            "other_retrieve": 445,
+            "other_confidence": 95
+        },
+        {
+            "qid": 350,
+            "retrieve": 562,
+            "confidence": 95,
+            "other_retrieve": 562,
+            "other_confidence": 95
+        },
+        {
+            "qid": 351,
+            "retrieve": 52,
+            "confidence": 85,
+            "other_retrieve": 52,
+            "other_confidence": 85
+        },
+        {
+            "qid": 352,
+            "retrieve": 465,
+            "confidence": 95,
+            "other_retrieve": 465,
+            "other_confidence": 95
+        },
+        {
+            "qid": 353,
+            "retrieve": 303,
+            "confidence": 85,
+            "other_retrieve": 88,
+            "other_confidence": 75
+        },
+        {
+            "qid": 354,
+            "retrieve": 809,
+            "confidence": 95,
+            "other_retrieve": 809,
+            "other_confidence": 95
+        },
+        {
+            "qid": 355,
+            "retrieve": 247,
+            "confidence": 95,
+            "other_retrieve": 247,
+            "other_confidence": 85
+        },
+        {
+            "qid": 356,
+            "retrieve": 804,
+            "confidence": 90,
+            "other_retrieve": 415,
+            "other_confidence": 90
+        },
+        {
+            "qid": 357,
+            "retrieve": 400,
+            "confidence": 85,
+            "other_retrieve": 400,
+            "other_confidence": 85
+        },
+        {
+            "qid": 358,
+            "retrieve": 287,
+            "confidence": 95,
+            "other_retrieve": 287,
+            "other_confidence": 95
+        },
+        {
+            "qid": 359,
+            "retrieve": 707,
+            "confidence": 95,
+            "other_retrieve": 707,
+            "other_confidence": 95
+        },
+        {
+            "qid": 360,
+            "retrieve": 814,
+            "confidence": 95,
+            "other_retrieve": 814,
+            "other_confidence": 90
+        },
+        {
+            "qid": 361,
+            "retrieve": 826,
+            "confidence": 95,
+            "other_retrieve": 826,
+            "other_confidence": 90
+        },
+        {
+            "qid": 362,
+            "retrieve": 149,
+            "confidence": 95,
+            "other_retrieve": 149,
+            "other_confidence": 85
+        },
+        {
+            "qid": 363,
+            "retrieve": 249,
+            "confidence": 95,
+            "other_retrieve": 249,
+            "other_confidence": 95
+        },
+        {
+            "qid": 364,
+            "retrieve": 906,
+            "confidence": 90,
+            "other_retrieve": 906,
+            "other_confidence": 70
+        },
+        {
+            "qid": 365,
+            "retrieve": 719,
+            "confidence": 95,
+            "other_retrieve": 719,
+            "other_confidence": 85
+        },
+        {
+            "qid": 366,
+            "retrieve": 530,
+            "confidence": 85,
+            "other_retrieve": 530,
+            "other_confidence": 80
+        },
+        {
+            "qid": 367,
+            "retrieve": 722,
+            "confidence": 95,
+            "other_retrieve": 722,
+            "other_confidence": 95
+        },
+        {
+            "qid": 368,
+            "retrieve": 860,
+            "confidence": 95,
+            "other_retrieve": 860,
+            "other_confidence": 95
+        },
+        {
+            "qid": 369,
+            "retrieve": 464,
+            "confidence": 95,
+            "other_retrieve": 464,
+            "other_confidence": 95
+        },
+        {
+            "qid": 370,
+            "retrieve": 642,
+            "confidence": 90,
+            "other_retrieve": 642,
+            "other_confidence": 85
+        },
+        {
+            "qid": 371,
+            "retrieve": 249,
+            "confidence": 95,
+            "other_retrieve": 249,
+            "other_confidence": 95
+        },
+        {
+            "qid": 372,
+            "retrieve": 1030,
+            "confidence": 95,
+            "other_retrieve": 1030,
+            "other_confidence": 85
+        },
+        {
+            "qid": 373,
+            "retrieve": 50,
+            "confidence": 95,
+            "other_retrieve": 50,
+            "other_confidence": 95
+        },
+        {
+            "qid": 374,
+            "retrieve": 434,
+            "confidence": 95,
+            "other_retrieve": 434,
+            "other_confidence": 95
+        },
+        {
+            "qid": 375,
+            "retrieve": 334,
+            "confidence": 95,
+            "other_retrieve": 1000,
+            "other_confidence": 95
+        },
+        {
+            "qid": 376,
+            "retrieve": 378,
+            "confidence": 90,
+            "other_retrieve": 378,
+            "other_confidence": 90
+        },
+        {
+            "qid": 377,
+            "retrieve": 293,
+            "confidence": 95,
+            "other_retrieve": 293,
+            "other_confidence": 95
+        },
+        {
+            "qid": 378,
+            "retrieve": 275,
+            "confidence": 95,
+            "other_retrieve": 275,
+            "other_confidence": 95
+        },
+        {
+            "qid": 379,
+            "retrieve": 60,
+            "confidence": 95,
+            "other_retrieve": 60,
+            "other_confidence": 90
+        },
+        {
+            "qid": 380,
+            "retrieve": 236,
+            "confidence": 85,
+            "other_retrieve": 236,
+            "other_confidence": 85
+        },
+        {
+            "qid": 381,
+            "retrieve": 854,
+            "confidence": 85,
+            "other_retrieve": 854,
+            "other_confidence": 75
+        },
+        {
+            "qid": 382,
+            "retrieve": 912,
+            "confidence": 95,
+            "other_retrieve": 912,
+            "other_confidence": 90
+        },
+        {
+            "qid": 383,
+            "retrieve": 956,
+            "confidence": 95,
+            "other_retrieve": 788,
+            "other_confidence": 85
+        },
+        {
+            "qid": 384,
+            "retrieve": 800,
+            "confidence": 95,
+            "other_retrieve": 800,
+            "other_confidence": 85
+        },
+        {
+            "qid": 385,
+            "retrieve": 58,
+            "confidence": 80,
+            "other_retrieve": 58,
+            "other_confidence": 80
+        },
+        {
+            "qid": 386,
+            "retrieve": 429,
+            "confidence": 95,
+            "other_retrieve": 429,
+            "other_confidence": 95
+        },
+        {
+            "qid": 387,
+            "retrieve": 517,
+            "confidence": 95,
+            "other_retrieve": 517,
+            "other_confidence": 95
+        },
+        {
+            "qid": 388,
+            "retrieve": 393,
+            "confidence": 95,
+            "other_retrieve": 393,
+            "other_confidence": 85
+        },
+        {
+            "qid": 389,
+            "retrieve": 688,
+            "confidence": 90,
+            "other_retrieve": 688,
+            "other_confidence": 85
+        },
+        {
+            "qid": 390,
+            "retrieve": 546,
+            "confidence": 85,
+            "other_retrieve": 546,
+            "other_confidence": 80
+        },
+        {
+            "qid": 391,
+            "retrieve": 1029,
+            "confidence": 95,
+            "other_retrieve": 1029,
+            "other_confidence": 95
+        },
+        {
+            "qid": 392,
+            "retrieve": 930,
+            "confidence": 95,
+            "other_retrieve": 284,
+            "other_confidence": 90
+        },
+        {
+            "qid": 393,
+            "retrieve": 892,
+            "confidence": 85,
+            "other_retrieve": 892,
+            "other_confidence": 85
+        },
+        {
+            "qid": 394,
+            "retrieve": 481,
+            "confidence": 95,
+            "other_retrieve": 481,
+            "other_confidence": 95
+        },
+        {
+            "qid": 395,
+            "retrieve": 158,
+            "confidence": 95,
+            "other_retrieve": 998,
+            "other_confidence": 95
+        },
+        {
+            "qid": 396,
+            "retrieve": 1017,
+            "confidence": 95,
+            "other_retrieve": 1017,
+            "other_confidence": 90
+        },
+        {
+            "qid": 397,
+            "retrieve": 450,
+            "confidence": 95,
+            "other_retrieve": 450,
+            "other_confidence": 95
+        },
+        {
+            "qid": 398,
+            "retrieve": 992,
+            "confidence": 85,
+            "other_retrieve": 992,
+            "other_confidence": 85
+        },
+        {
+            "qid": 399,
+            "retrieve": 342,
+            "confidence": 95,
+            "other_retrieve": 342,
+            "other_confidence": 95
+        },
+        {
+            "qid": 400,
+            "retrieve": 970,
+            "confidence": 95,
+            "other_retrieve": 970,
+            "other_confidence": 95
+        },
+        {
+            "qid": 401,
+            "retrieve": 177,
+            "confidence": 95,
+            "other_retrieve": 177,
+            "other_confidence": 95
+        },
+        {
+            "qid": 402,
+            "retrieve": 816,
+            "confidence": 90,
+            "other_retrieve": 816,
+            "other_confidence": 85
+        },
+        {
+            "qid": 403,
+            "retrieve": 529,
+            "confidence": 95,
+            "other_retrieve": 529,
+            "other_confidence": 95
+        },
+        {
+            "qid": 404,
+            "retrieve": 975,
+            "confidence": 95,
+            "other_retrieve": 975,
+            "other_confidence": 95
+        },
+        {
+            "qid": 405,
+            "retrieve": 906,
+            "confidence": 90,
+            "other_retrieve": 595,
+            "other_confidence": 85
+        },
+        {
+            "qid": 406,
+            "retrieve": 732,
+            "confidence": 95,
+            "other_retrieve": 732,
+            "other_confidence": 95
+        },
+        {
+            "qid": 407,
+            "retrieve": 230,
+            "confidence": 95,
+            "other_retrieve": 230,
+            "other_confidence": 90
+        },
+        {
+            "qid": 408,
+            "retrieve": 988,
+            "confidence": 95,
+            "other_retrieve": 988,
+            "other_confidence": 90
+        },
+        {
+            "qid": 409,
+            "retrieve": 963,
+            "confidence": 95,
+            "other_retrieve": 963,
+            "other_confidence": 85
+        },
+        {
+            "qid": 410,
+            "retrieve": 635,
+            "confidence": 85,
+            "other_retrieve": 635,
+            "other_confidence": 75
+        },
+        {
+            "qid": 411,
+            "retrieve": 367,
+            "confidence": 90,
+            "other_retrieve": 367,
+            "other_confidence": 75
+        },
+        {
+            "qid": 412,
+            "retrieve": 816,
+            "confidence": 90,
+            "other_retrieve": 816,
+            "other_confidence": 90
+        },
+        {
+            "qid": 413,
+            "retrieve": 481,
+            "confidence": 85,
+            "other_retrieve": 584,
+            "other_confidence": 80
+        },
+        {
+            "qid": 414,
+            "retrieve": 792,
+            "confidence": 95,
+            "other_retrieve": 792,
+            "other_confidence": 95
+        },
+        {
+            "qid": 415,
+            "retrieve": 783,
+            "confidence": 95,
+            "other_retrieve": 783,
+            "other_confidence": 95
+        },
+        {
+            "qid": 416,
+            "retrieve": 650,
+            "confidence": 95,
+            "other_retrieve": 650,
+            "other_confidence": 85
+        },
+        {
+            "qid": 417,
+            "retrieve": 910,
+            "confidence": 95,
+            "other_retrieve": 910,
+            "other_confidence": 95
+        },
+        {
+            "qid": 418,
+            "retrieve": 697,
+            "confidence": 95,
+            "other_retrieve": 697,
+            "other_confidence": 95
+        },
+        {
+            "qid": 419,
+            "retrieve": 282,
+            "confidence": 95,
+            "other_retrieve": 282,
+            "other_confidence": 85
+        },
+        {
+            "qid": 420,
+            "retrieve": 78,
+            "confidence": 90,
+            "other_retrieve": 78,
+            "other_confidence": 85
+        },
+        {
+            "qid": 421,
+            "retrieve": 249,
+            "confidence": 90,
+            "other_retrieve": 249,
+            "other_confidence": 80
+        },
+        {
+            "qid": 422,
+            "retrieve": 373,
+            "confidence": 65,
+            "other_retrieve": 590,
+            "other_confidence": 30
+        },
+        {
+            "qid": 423,
+            "retrieve": 527,
+            "confidence": 85,
+            "other_retrieve": 527,
+            "other_confidence": 85
+        },
+        {
+            "qid": 424,
+            "retrieve": 899,
+            "confidence": 95,
+            "other_retrieve": 899,
+            "other_confidence": 95
+        },
+        {
+            "qid": 425,
+            "retrieve": 588,
+            "confidence": 95,
+            "other_retrieve": 588,
+            "other_confidence": 85
+        },
+        {
+            "qid": 426,
+            "retrieve": 802,
+            "confidence": 95,
+            "other_retrieve": 802,
+            "other_confidence": 85
+        },
+        {
+            "qid": 427,
+            "retrieve": 7,
+            "confidence": 95,
+            "other_retrieve": 7,
+            "other_confidence": 90
+        },
+        {
+            "qid": 428,
+            "retrieve": 315,
+            "confidence": 95,
+            "other_retrieve": 315,
+            "other_confidence": 95
+        },
+        {
+            "qid": 429,
+            "retrieve": 756,
+            "confidence": 95,
+            "other_retrieve": 756,
+            "other_confidence": 95
+        },
+        {
+            "qid": 430,
+            "retrieve": 75,
+            "confidence": 95,
+            "other_retrieve": 75,
+            "other_confidence": 70
+        },
+        {
+            "qid": 431,
+            "retrieve": 797,
+            "confidence": 70,
+            "other_retrieve": 797,
+            "other_confidence": 65
+        },
+        {
+            "qid": 432,
+            "retrieve": 120,
+            "confidence": 95,
+            "other_retrieve": 120,
+            "other_confidence": 95
+        },
+        {
+            "qid": 433,
+            "retrieve": 272,
+            "confidence": 95,
+            "other_retrieve": 272,
+            "other_confidence": 95
+        },
+        {
+            "qid": 434,
+            "retrieve": 443,
+            "confidence": 95,
+            "other_retrieve": 443,
+            "other_confidence": 95
+        },
+        {
+            "qid": 435,
+            "retrieve": 938,
+            "confidence": 95,
+            "other_retrieve": 938,
+            "other_confidence": 95
+        },
+        {
+            "qid": 436,
+            "retrieve": 680,
+            "confidence": 95,
+            "other_retrieve": 680,
+            "other_confidence": 95
+        },
+        {
+            "qid": 437,
+            "retrieve": 93,
+            "confidence": 95,
+            "other_retrieve": 93,
+            "other_confidence": 95
+        },
+        {
+            "qid": 438,
+            "retrieve": 648,
+            "confidence": 95,
+            "other_retrieve": 648,
+            "other_confidence": 85
+        },
+        {
+            "qid": 439,
+            "retrieve": 554,
+            "confidence": 95,
+            "other_retrieve": 554,
+            "other_confidence": 90
+        },
+        {
+            "qid": 440,
+            "retrieve": 1028,
+            "confidence": 95,
+            "other_retrieve": 1028,
+            "other_confidence": 95
+        },
+        {
+            "qid": 441,
+            "retrieve": 808,
+            "confidence": 95,
+            "other_retrieve": 808,
+            "other_confidence": 90
+        },
+        {
+            "qid": 442,
+            "retrieve": 376,
+            "confidence": 85,
+            "other_retrieve": 376,
+            "other_confidence": 85
+        },
+        {
+            "qid": 443,
+            "retrieve": 222,
+            "confidence": 95,
+            "other_retrieve": 222,
+            "other_confidence": 95
+        },
+        {
+            "qid": 444,
+            "retrieve": 806,
+            "confidence": 95,
+            "other_retrieve": 806,
+            "other_confidence": 95
+        },
+        {
+            "qid": 445,
+            "retrieve": 838,
+            "confidence": 95,
+            "other_retrieve": 838,
+            "other_confidence": 95
+        },
+        {
+            "qid": 446,
+            "retrieve": 586,
+            "confidence": 90,
+            "other_retrieve": 586,
+            "other_confidence": 90
+        },
+        {
+            "qid": 447,
+            "retrieve": 917,
+            "confidence": 95,
+            "other_retrieve": 917,
+            "other_confidence": 95
+        },
+        {
+            "qid": 448,
+            "retrieve": 729,
+            "confidence": 85,
+            "other_retrieve": 906,
+            "other_confidence": 85
+        },
+        {
+            "qid": 449,
+            "retrieve": 336,
+            "confidence": 95,
+            "other_retrieve": 809,
+            "other_confidence": 85
+        },
+        {
+            "qid": 450,
+            "retrieve": 127,
+            "confidence": 80,
+            "other_retrieve": 127,
+            "other_confidence": 70
+        },
+        {
+            "qid": 451,
+            "retrieve": 721,
+            "confidence": 90,
+            "other_retrieve": 721,
+            "other_confidence": 85
+        },
+        {
+            "qid": 452,
+            "retrieve": 523,
+            "confidence": 95,
+            "other_retrieve": 523,
+            "other_confidence": 85
+        },
+        {
+            "qid": 453,
+            "retrieve": 281,
+            "confidence": 95,
+            "other_retrieve": 281,
+            "other_confidence": 95
+        },
+        {
+            "qid": 454,
+            "retrieve": 59,
+            "confidence": 95,
+            "other_retrieve": 70,
+            "other_confidence": 90
+        },
+        {
+            "qid": 455,
+            "retrieve": 405,
+            "confidence": 95,
+            "other_retrieve": 405,
+            "other_confidence": 95
+        },
+        {
+            "qid": 456,
+            "retrieve": 813,
+            "confidence": 95,
+            "other_retrieve": 813,
+            "other_confidence": 85
+        },
+        {
+            "qid": 457,
+            "retrieve": 243,
+            "confidence": 95,
+            "other_retrieve": 243,
+            "other_confidence": 95
+        },
+        {
+            "qid": 458,
+            "retrieve": 419,
+            "confidence": 95,
+            "other_retrieve": 419,
+            "other_confidence": 90
+        },
+        {
+            "qid": 459,
+            "retrieve": 913,
+            "confidence": 95,
+            "other_retrieve": 913,
+            "other_confidence": 95
+        },
+        {
+            "qid": 460,
+            "retrieve": 704,
+            "confidence": 85,
+            "other_retrieve": 704,
+            "other_confidence": 85
+        },
+        {
+            "qid": 461,
+            "retrieve": 600,
+            "confidence": 95,
+            "other_retrieve": 600,
+            "other_confidence": 95
+        },
+        {
+            "qid": 462,
+            "retrieve": 329,
+            "confidence": 95,
+            "other_retrieve": 329,
+            "other_confidence": 95
+        },
+        {
+            "qid": 463,
+            "retrieve": 847,
+            "confidence": 95,
+            "other_retrieve": 847,
+            "other_confidence": 95
+        },
+        {
+            "qid": 464,
+            "retrieve": 411,
+            "confidence": 95,
+            "other_retrieve": 411,
+            "other_confidence": 95
+        },
+        {
+            "qid": 465,
+            "retrieve": 251,
+            "confidence": 90,
+            "other_retrieve": 251,
+            "other_confidence": 85
+        },
+        {
+            "qid": 466,
+            "retrieve": 595,
+            "confidence": 85,
+            "other_retrieve": 541,
+            "other_confidence": 0
+        },
+        {
+            "qid": 467,
+            "retrieve": 971,
+            "confidence": 95,
+            "other_retrieve": 971,
+            "other_confidence": 95
+        },
+        {
+            "qid": 468,
+            "retrieve": 95,
+            "confidence": 90,
+            "other_retrieve": 95,
+            "other_confidence": 90
+        },
+        {
+            "qid": 469,
+            "retrieve": 13,
+            "confidence": 95,
+            "other_retrieve": 13,
+            "other_confidence": 85
+        },
+        {
+            "qid": 470,
+            "retrieve": 921,
+            "confidence": 95,
+            "other_retrieve": 921,
+            "other_confidence": 90
+        },
+        {
+            "qid": 471,
+            "retrieve": 425,
+            "confidence": 95,
+            "other_retrieve": 938,
+            "other_confidence": 80
+        },
+        {
+            "qid": 472,
+            "retrieve": 12,
+            "confidence": 90,
+            "other_retrieve": 588,
+            "other_confidence": 70
+        },
+        {
+            "qid": 473,
+            "retrieve": 408,
+            "confidence": 95,
+            "other_retrieve": 408,
+            "other_confidence": 85
+        },
+        {
+            "qid": 474,
+            "retrieve": 635,
+            "confidence": 95,
+            "other_retrieve": 635,
+            "other_confidence": 85
+        },
+        {
+            "qid": 475,
+            "retrieve": 68,
+            "confidence": 85,
+            "other_retrieve": 337,
+            "other_confidence": 80
+        },
+        {
+            "qid": 476,
+            "retrieve": 504,
+            "confidence": 95,
+            "other_retrieve": 504,
+            "other_confidence": 85
+        },
+        {
+            "qid": 477,
+            "retrieve": 924,
+            "confidence": 85,
+            "other_retrieve": 924,
+            "other_confidence": 85
+        },
+        {
+            "qid": 478,
+            "retrieve": 417,
+            "confidence": 60,
+            "other_retrieve": 670,
+            "other_confidence": 30
+        },
+        {
+            "qid": 479,
+            "retrieve": 14,
+            "confidence": 90,
+            "other_retrieve": 14,
+            "other_confidence": 85
+        },
+        {
+            "qid": 480,
+            "retrieve": 870,
+            "confidence": 95,
+            "other_retrieve": 870,
+            "other_confidence": 90
+        },
+        {
+            "qid": 481,
+            "retrieve": 168,
+            "confidence": 95,
+            "other_retrieve": 168,
+            "other_confidence": 95
+        },
+        {
+            "qid": 482,
+            "retrieve": 176,
+            "confidence": 95,
+            "other_retrieve": 576,
+            "other_confidence": 95
+        },
+        {
+            "qid": 483,
+            "retrieve": 605,
+            "confidence": 95,
+            "other_retrieve": 605,
+            "other_confidence": 90
+        },
+        {
+            "qid": 484,
+            "retrieve": 341,
+            "confidence": 95,
+            "other_retrieve": 341,
+            "other_confidence": 90
+        },
+        {
+            "qid": 485,
+            "retrieve": 205,
+            "confidence": 85,
+            "other_retrieve": 205,
+            "other_confidence": 85
+        },
+        {
+            "qid": 486,
+            "retrieve": 98,
+            "confidence": 90,
+            "other_retrieve": 866,
+            "other_confidence": 90
+        },
+        {
+            "qid": 487,
+            "retrieve": 767,
+            "confidence": 90,
+            "other_retrieve": 767,
+            "other_confidence": 85
+        },
+        {
+            "qid": 488,
+            "retrieve": 727,
+            "confidence": 95,
+            "other_retrieve": 727,
+            "other_confidence": 85
+        },
+        {
+            "qid": 489,
+            "retrieve": 620,
+            "confidence": 95,
+            "other_retrieve": 620,
+            "other_confidence": 85
+        },
+        {
+            "qid": 490,
+            "retrieve": 901,
+            "confidence": 95,
+            "other_retrieve": 901,
+            "other_confidence": 95
+        },
+        {
+            "qid": 491,
+            "retrieve": 324,
+            "confidence": 100,
+            "other_retrieve": 324,
+            "other_confidence": 95
+        },
+        {
+            "qid": 492,
+            "retrieve": 999,
+            "confidence": 95,
+            "other_retrieve": 999,
+            "other_confidence": 95
+        },
+        {
+            "qid": 493,
+            "retrieve": 837,
+            "confidence": 95,
+            "other_retrieve": 837,
+            "other_confidence": 95
+        },
+        {
+            "qid": 494,
+            "retrieve": 742,
+            "confidence": 95,
+            "other_retrieve": 742,
+            "other_confidence": 95
+        },
+        {
+            "qid": 495,
+            "retrieve": 625,
+            "confidence": 90,
+            "other_retrieve": 625,
+            "other_confidence": 85
+        },
+        {
+            "qid": 496,
+            "retrieve": 870,
+            "confidence": 95,
+            "other_retrieve": 870,
+            "other_confidence": 85
+        },
+        {
+            "qid": 497,
+            "retrieve": 16,
+            "confidence": 95,
+            "other_retrieve": 16,
+            "other_confidence": 95
+        },
+        {
+            "qid": 498,
+            "retrieve": 760,
+            "confidence": 95,
+            "other_retrieve": 760,
+            "other_confidence": 90
+        },
+        {
+            "qid": 499,
+            "retrieve": 224,
+            "confidence": 95,
+            "other_retrieve": 224,
+            "other_confidence": 95
+        },
+        {
+            "qid": 500,
+            "retrieve": 916,
+            "confidence": 95,
+            "other_retrieve": 916,
+            "other_confidence": 90
+        },
+        {
+            "qid": 501,
+            "retrieve": 94,
+            "confidence": 95,
+            "other_retrieve": 94,
+            "other_confidence": 85
+        },
+        {
+            "qid": 502,
+            "retrieve": 696,
+            "confidence": 95,
+            "other_retrieve": 696,
+            "other_confidence": 95
+        },
+        {
+            "qid": 503,
+            "retrieve": 199,
+            "confidence": 95,
+            "other_retrieve": 199,
+            "other_confidence": 95
+        },
+        {
+            "qid": 504,
+            "retrieve": 882,
+            "confidence": 95,
+            "other_retrieve": 882,
+            "other_confidence": 95
+        },
+        {
+            "qid": 505,
+            "retrieve": 208,
+            "confidence": 95,
+            "other_retrieve": 208,
+            "other_confidence": 95
+        },
+        {
+            "qid": 506,
+            "retrieve": 766,
+            "confidence": 95,
+            "other_retrieve": 766,
+            "other_confidence": 85
+        },
+        {
+            "qid": 507,
+            "retrieve": 34,
+            "confidence": 90,
+            "other_retrieve": 34,
+            "other_confidence": 90
+        },
+        {
+            "qid": 508,
+            "retrieve": 67,
+            "confidence": 85,
+            "other_retrieve": 67,
+            "other_confidence": 70
+        },
+        {
+            "qid": 509,
+            "retrieve": 344,
+            "confidence": 95,
+            "other_retrieve": 344,
+            "other_confidence": 90
+        },
+        {
+            "qid": 510,
+            "retrieve": 513,
+            "confidence": 95,
+            "other_retrieve": 513,
+            "other_confidence": 85
+        },
+        {
+            "qid": 511,
+            "retrieve": 598,
+            "confidence": 95,
+            "other_retrieve": 598,
+            "other_confidence": 95
+        },
+        {
+            "qid": 512,
+            "retrieve": 887,
+            "confidence": 95,
+            "other_retrieve": 887,
+            "other_confidence": 90
+        },
+        {
+            "qid": 513,
+            "retrieve": 31,
+            "confidence": 85,
+            "other_retrieve": 31,
+            "other_confidence": 85
+        },
+        {
+            "qid": 514,
+            "retrieve": 543,
+            "confidence": 85,
+            "other_retrieve": 543,
+            "other_confidence": 85
+        },
+        {
+            "qid": 515,
+            "retrieve": 508,
+            "confidence": 95,
+            "other_retrieve": 786,
+            "other_confidence": 85
+        },
+        {
+            "qid": 516,
+            "retrieve": 731,
+            "confidence": 95,
+            "other_retrieve": 559,
+            "other_confidence": 80
+        },
+        {
+            "qid": 517,
+            "retrieve": 137,
+            "confidence": 95,
+            "other_retrieve": 137,
+            "other_confidence": 95
+        },
+        {
+            "qid": 518,
+            "retrieve": 296,
+            "confidence": 90,
+            "other_retrieve": 296,
+            "other_confidence": 85
+        },
+        {
+            "qid": 519,
+            "retrieve": 989,
+            "confidence": 95,
+            "other_retrieve": 989,
+            "other_confidence": 95
+        },
+        {
+            "qid": 520,
+            "retrieve": 506,
+            "confidence": 95,
+            "other_retrieve": 506,
+            "other_confidence": 85
+        },
+        {
+            "qid": 521,
+            "retrieve": 175,
+            "confidence": 95,
+            "other_retrieve": 175,
+            "other_confidence": 90
+        },
+        {
+            "qid": 522,
+            "retrieve": 250,
+            "confidence": 95,
+            "other_retrieve": 250,
+            "other_confidence": 85
+        },
+        {
+            "qid": 523,
+            "retrieve": 121,
+            "confidence": 95,
+            "other_retrieve": 121,
+            "other_confidence": 90
+        },
+        {
+            "qid": 524,
+            "retrieve": 105,
+            "confidence": 95,
+            "other_retrieve": 105,
+            "other_confidence": 95
+        },
+        {
+            "qid": 525,
+            "retrieve": 7,
+            "confidence": 95,
+            "other_retrieve": 7,
+            "other_confidence": 95
+        },
+        {
+            "qid": 526,
+            "retrieve": 1027,
+            "confidence": 95,
+            "other_retrieve": 1027,
+            "other_confidence": 95
+        },
+        {
+            "qid": 527,
+            "retrieve": 473,
+            "confidence": 95,
+            "other_retrieve": 473,
+            "other_confidence": 95
+        },
+        {
+            "qid": 528,
+            "retrieve": 297,
+            "confidence": 95,
+            "other_retrieve": 297,
+            "other_confidence": 95
+        },
+        {
+            "qid": 529,
+            "retrieve": 616,
+            "confidence": 95,
+            "other_retrieve": 616,
+            "other_confidence": 95
+        },
+        {
+            "qid": 530,
+            "retrieve": 749,
+            "confidence": 95,
+            "other_retrieve": 749,
+            "other_confidence": 95
+        },
+        {
+            "qid": 531,
+            "retrieve": 867,
+            "confidence": 95,
+            "other_retrieve": 867,
+            "other_confidence": 95
+        },
+        {
+            "qid": 532,
+            "retrieve": 864,
+            "confidence": 85,
+            "other_retrieve": 916,
+            "other_confidence": 85
+        },
+        {
+            "qid": 533,
+            "retrieve": 280,
+            "confidence": 95,
+            "other_retrieve": 974,
+            "other_confidence": 95
+        },
+        {
+            "qid": 534,
+            "retrieve": 581,
+            "confidence": 95,
+            "other_retrieve": 399,
+            "other_confidence": 70
+        },
+        {
+            "qid": 535,
+            "retrieve": 379,
+            "confidence": 95,
+            "other_retrieve": 379,
+            "other_confidence": 85
+        },
+        {
+            "qid": 536,
+            "retrieve": 809,
+            "confidence": 100,
+            "other_retrieve": 809,
+            "other_confidence": 95
+        },
+        {
+            "qid": 537,
+            "retrieve": 92,
+            "confidence": 85,
+            "other_retrieve": 92,
+            "other_confidence": 85
+        },
+        {
+            "qid": 538,
+            "retrieve": 905,
+            "confidence": 95,
+            "other_retrieve": 905,
+            "other_confidence": 95
+        },
+        {
+            "qid": 539,
+            "retrieve": 613,
+            "confidence": 65,
+            "other_retrieve": 451,
+            "other_confidence": 30
+        },
+        {
+            "qid": 540,
+            "retrieve": 779,
+            "confidence": 90,
+            "other_retrieve": 779,
+            "other_confidence": 85
+        },
+        {
+            "qid": 541,
+            "retrieve": 1008,
+            "confidence": 95,
+            "other_retrieve": 1008,
+            "other_confidence": 85
+        },
+        {
+            "qid": 542,
+            "retrieve": 844,
+            "confidence": 90,
+            "other_retrieve": 844,
+            "other_confidence": 85
+        },
+        {
+            "qid": 543,
+            "retrieve": 564,
+            "confidence": 95,
+            "other_retrieve": 564,
+            "other_confidence": 95
+        },
+        {
+            "qid": 544,
+            "retrieve": 909,
+            "confidence": 95,
+            "other_retrieve": 909,
+            "other_confidence": 85
+        },
+        {
+            "qid": 545,
+            "retrieve": 294,
+            "confidence": 85,
+            "other_retrieve": 294,
+            "other_confidence": 85
+        },
+        {
+            "qid": 546,
+            "retrieve": 426,
+            "confidence": 95,
+            "other_retrieve": 426,
+            "other_confidence": 85
+        },
+        {
+            "qid": 547,
+            "retrieve": 887,
+            "confidence": 95,
+            "other_retrieve": 887,
+            "other_confidence": 95
+        },
+        {
+            "qid": 548,
+            "retrieve": 933,
+            "confidence": 95,
+            "other_retrieve": 933,
+            "other_confidence": 95
+        },
+        {
+            "qid": 549,
+            "retrieve": 194,
+            "confidence": 95,
+            "other_retrieve": 194,
+            "other_confidence": 95
+        },
+        {
+            "qid": 550,
+            "retrieve": 772,
+            "confidence": 90,
+            "other_retrieve": 772,
+            "other_confidence": 85
+        },
+        {
+            "qid": 551,
+            "retrieve": 25,
+            "confidence": 95,
+            "other_retrieve": 25,
+            "other_confidence": 95
+        },
+        {
+            "qid": 552,
+            "retrieve": 621,
+            "confidence": 95,
+            "other_retrieve": 471,
+            "other_confidence": 85
+        },
+        {
+            "qid": 553,
+            "retrieve": 556,
+            "confidence": 90,
+            "other_retrieve": 303,
+            "other_confidence": 75
+        },
+        {
+            "qid": 554,
+            "retrieve": 302,
+            "confidence": 95,
+            "other_retrieve": 302,
+            "other_confidence": 95
+        },
+        {
+            "qid": 555,
+            "retrieve": 363,
+            "confidence": 100,
+            "other_retrieve": 363,
+            "other_confidence": 95
+        },
+        {
+            "qid": 556,
+            "retrieve": 174,
+            "confidence": 90,
+            "other_retrieve": 174,
+            "other_confidence": 85
+        },
+        {
+            "qid": 557,
+            "retrieve": 861,
+            "confidence": 95,
+            "other_retrieve": 861,
+            "other_confidence": 85
+        },
+        {
+            "qid": 558,
+            "retrieve": 21,
+            "confidence": 95,
+            "other_retrieve": 21,
+            "other_confidence": 90
+        },
+        {
+            "qid": 559,
+            "retrieve": 865,
+            "confidence": 95,
+            "other_retrieve": 865,
+            "other_confidence": 85
+        },
+        {
+            "qid": 560,
+            "retrieve": 503,
+            "confidence": 95,
+            "other_retrieve": 503,
+            "other_confidence": 95
+        },
+        {
+            "qid": 561,
+            "retrieve": 757,
+            "confidence": 90,
+            "other_retrieve": 757,
+            "other_confidence": 85
+        },
+        {
+            "qid": 562,
+            "retrieve": 214,
+            "confidence": 95,
+            "other_retrieve": 214,
+            "other_confidence": 70
+        },
+        {
+            "qid": 563,
+            "retrieve": 75,
+            "confidence": 95,
+            "other_retrieve": 75,
+            "other_confidence": 90
+        },
+        {
+            "qid": 564,
+            "retrieve": 161,
+            "confidence": 95,
+            "other_retrieve": 161,
+            "other_confidence": 95
+        },
+        {
+            "qid": 565,
+            "retrieve": 342,
+            "confidence": 95,
+            "other_retrieve": 342,
+            "other_confidence": 95
+        },
+        {
+            "qid": 566,
+            "retrieve": 935,
+            "confidence": 95,
+            "other_retrieve": 935,
+            "other_confidence": 95
+        },
+        {
+            "qid": 567,
+            "retrieve": 802,
+            "confidence": 95,
+            "other_retrieve": 261,
+            "other_confidence": 90
+        },
+        {
+            "qid": 568,
+            "retrieve": 196,
+            "confidence": 95,
+            "other_retrieve": 196,
+            "other_confidence": 95
+        },
+        {
+            "qid": 569,
+            "retrieve": 665,
+            "confidence": 85,
+            "other_retrieve": 665,
+            "other_confidence": 85
+        },
+        {
+            "qid": 570,
+            "retrieve": 608,
+            "confidence": 95,
+            "other_retrieve": 485,
+            "other_confidence": 90
+        },
+        {
+            "qid": 571,
+            "retrieve": 46,
+            "confidence": 95,
+            "other_retrieve": 46,
+            "other_confidence": 95
+        },
+        {
+            "qid": 572,
+            "retrieve": 201,
+            "confidence": 90,
+            "other_retrieve": 201,
+            "other_confidence": 85
+        },
+        {
+            "qid": 573,
+            "retrieve": 934,
+            "confidence": 95,
+            "other_retrieve": 934,
+            "other_confidence": 95
+        },
+        {
+            "qid": 574,
+            "retrieve": 150,
+            "confidence": 95,
+            "other_retrieve": 150,
+            "other_confidence": 85
+        },
+        {
+            "qid": 575,
+            "retrieve": 375,
+            "confidence": 95,
+            "other_retrieve": 850,
+            "other_confidence": 95
+        },
+        {
+            "qid": 576,
+            "retrieve": 967,
+            "confidence": 95,
+            "other_retrieve": 967,
+            "other_confidence": 90
+        },
+        {
+            "qid": 577,
+            "retrieve": 335,
+            "confidence": 95,
+            "other_retrieve": 335,
+            "other_confidence": 90
+        },
+        {
+            "qid": 578,
+            "retrieve": 108,
+            "confidence": 90,
+            "other_retrieve": 108,
+            "other_confidence": 85
+        },
+        {
+            "qid": 579,
+            "retrieve": 1003,
+            "confidence": 95,
+            "other_retrieve": 1003,
+            "other_confidence": 95
+        },
+        {
+            "qid": 580,
+            "retrieve": 548,
+            "confidence": 95,
+            "other_retrieve": 548,
+            "other_confidence": 90
+        },
+        {
+            "qid": 581,
+            "retrieve": 535,
+            "confidence": 85,
+            "other_retrieve": 121,
+            "other_confidence": 85
+        },
+        {
+            "qid": 582,
+            "retrieve": 737,
+            "confidence": 95,
+            "other_retrieve": 737,
+            "other_confidence": 85
+        },
+        {
+            "qid": 583,
+            "retrieve": 801,
+            "confidence": 85,
+            "other_retrieve": 801,
+            "other_confidence": 85
+        },
+        {
+            "qid": 584,
+            "retrieve": 229,
+            "confidence": 90,
+            "other_retrieve": 229,
+            "other_confidence": 85
+        },
+        {
+            "qid": 585,
+            "retrieve": 11,
+            "confidence": 95,
+            "other_retrieve": 11,
+            "other_confidence": 85
+        },
+        {
+            "qid": 586,
+            "retrieve": 200,
+            "confidence": 95,
+            "other_retrieve": 200,
+            "other_confidence": 85
+        },
+        {
+            "qid": 587,
+            "retrieve": 366,
+            "confidence": 95,
+            "other_retrieve": 366,
+            "other_confidence": 90
+        },
+        {
+            "qid": 588,
+            "retrieve": 322,
+            "confidence": 95,
+            "other_retrieve": 322,
+            "other_confidence": 95
+        },
+        {
+            "qid": 589,
+            "retrieve": 440,
+            "confidence": 90,
+            "other_retrieve": 440,
+            "other_confidence": 85
+        },
+        {
+            "qid": 590,
+            "retrieve": 308,
+            "confidence": 95,
+            "other_retrieve": 308,
+            "other_confidence": 75
+        },
+        {
+            "qid": 591,
+            "retrieve": 101,
+            "confidence": 85,
+            "other_retrieve": 101,
+            "other_confidence": 75
+        },
+        {
+            "qid": 592,
+            "retrieve": 198,
+            "confidence": 95,
+            "other_retrieve": 198,
+            "other_confidence": 95
+        },
+        {
+            "qid": 593,
+            "retrieve": 826,
+            "confidence": 95,
+            "other_retrieve": 826,
+            "other_confidence": 90
+        },
+        {
+            "qid": 594,
+            "retrieve": 64,
+            "confidence": 95,
+            "other_retrieve": 597,
+            "other_confidence": 95
+        },
+        {
+            "qid": 595,
+            "retrieve": 547,
+            "confidence": 95,
+            "other_retrieve": 547,
+            "other_confidence": 95
+        },
+        {
+            "qid": 596,
+            "retrieve": 973,
+            "confidence": 95,
+            "other_retrieve": 973,
+            "other_confidence": 95
+        },
+        {
+            "qid": 597,
+            "retrieve": 326,
+            "confidence": 95,
+            "other_retrieve": 326,
+            "other_confidence": 95
+        },
+        {
+            "qid": 598,
+            "retrieve": 36,
+            "confidence": 30,
+            "other_retrieve": 450,
+            "other_confidence": 10
+        },
+        {
+            "qid": 599,
+            "retrieve": 117,
+            "confidence": 95,
+            "other_retrieve": 117,
+            "other_confidence": 95
+        },
+        {
+            "qid": 600,
+            "retrieve": 747,
+            "confidence": 85,
+            "other_retrieve": 747,
+            "other_confidence": 85
+        }
+    ]
+}

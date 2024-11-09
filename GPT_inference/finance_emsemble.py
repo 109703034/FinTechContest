@@ -6,16 +6,16 @@ def load_json(file_path):
         return json.load(file)
 
 if __name__ == "__main__":
-    select_json = load_json("pred_GPT_fin_select.json.json")
+    select_json = load_json("pred_GPT_fin_select.json")
     all_json = load_json("pred_GPT_fin_all.json")
     merge_json = {"answers": []}
 
     for qid in tqdm(range(301, 601)):
-        ans_select = select_json["answers"][qid-1]["retrieve"]
-        ans_all = all_json["answers"][qid-1]["retrieve"]
+        ans_select = next(item["retrieve"] for item in select_json["answers"] if item["qid"] == qid)
+        ans_all = next(item["retrieve"] for item in all_json["answers"] if item["qid"] == qid)
 
-        confidence_select = select_json["answers"][qid-1]["confidence"]
-        confidence_all = all_json["answers"][qid-1]["confidence"]
+        confidence_select = next(item["confidence"] for item in select_json["answers"] if item["qid"] == qid)
+        confidence_all = next(item["confidence"] for item in all_json["answers"] if item["qid"] == qid)
 
         if confidence_select >= confidence_all:
             ans = {}
