@@ -23,7 +23,7 @@ if __name__ == "__main__":
         if category == "finance":
             ans = {}
             ans["qid"] = qid
-            ans["retrieve"] = ans_gpt
+            ans["retrieve"] = str(ans_gpt)
             output_json["answers"].append(ans)
         elif category == "insurance" or category == "faq":
             # insurance: GPT*0.4+LCS*0.3+Embedding*0.3
@@ -36,7 +36,7 @@ if __name__ == "__main__":
                     vote[option] += weight
             # pick the option with the highest vote, if two highest votes are the same, pick the one with GPT
             sorted_vote = sorted(vote.items(), key=lambda x:x[1])
-            ans["retrieve"] = sorted_vote[-1][0]
+            ans["retrieve"] = str(sorted_vote[-1][0])
             output_json["answers"].append(ans)
         # elif category == "faq":
         #     pass
