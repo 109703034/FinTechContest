@@ -43,11 +43,11 @@ def top_n_longest_common_substrings(str1, str2, N):
             top_n_substrings.append(substring)
             if len(top_n_substrings) >= N:
                 top_n_substrings = remove_substrings(top_n_substrings)
-                print(top_n_substrings)
+                # print(top_n_substrings)
                 return top_n_substrings
 
     top_n_substrings = remove_substrings(top_n_substrings)
-    print(top_n_substrings)
+    # print(top_n_substrings)
     return top_n_substrings
 
 def lcs_bert_calculation(question: str, source: list[int], corpus_dict: dict[int, str]):
@@ -64,13 +64,13 @@ def lcs_bert_calculation(question: str, source: list[int], corpus_dict: dict[int
         elif total_length == max_total_length:
             index_list.append(i)
     if len(index_list) == 1:
-        print(source)
-        print(index_list)
-        print(source[index_list[0]])
+        # print(source)
+        # print(index_list)
+        # print(source[index_list[0]])
         return source[index_list[0]]
-    print(source)
-    print(index_list)
-    print(source[index_list[0]])
+    # print(source)
+    # print(index_list)
+    # print(source[index_list[0]])
     return source[index_list[0]]
 
     logging.set_verbosity_error() 

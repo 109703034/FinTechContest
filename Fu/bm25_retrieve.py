@@ -80,8 +80,8 @@ if __name__ == "__main__":
     # for q_dict in tqdm(qs_ref['questions']):
         if q_dict['category'] == 'finance':
             new_query = preprocess(q_dict['query'])
-            print(q_dict['query'])
-            print(new_query)
+            # print(q_dict['query'])
+            # print(new_query)
             # 進行檢索
             # retrieved = BM25_retrieve(q_dict['query'], q_dict['source'], corpus_dict_finance)
             #retrieved = lcs_bert_calculation(q_dict['query'], q_dict['source'], corpus_dict_finance)
