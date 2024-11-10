@@ -6,7 +6,7 @@
 
 [3. Get prediction by chatGPT](#how-to-run-gpt_retrievepy-to-get-prediction-of-chatgpt)
 
-[4. Ensemble three prediction](#how-to-run-ensemblepy-to-get-the-best-ensemble-result)
+[4. Get final best ensemble result - `ensemble.json`](#how-to-run-ensemblepy-to-get-the-best-ensemble-result)
 
 ## Architecture and Explanation
 ```
