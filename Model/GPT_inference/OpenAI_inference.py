@@ -20,6 +20,15 @@ client = OpenAI(api_key = api_key)
 #     # response.data[0].embedding
 
 def create_messages(prompt):
+    """
+    Creates a structured message for the OpenAI API based on a prompt.
+
+    Args:
+        prompt (str): The input prompt to send to the API.
+
+    Returns:
+        list: A list of dictionaries representing the message structure with roles and content.
+    """
     messages = [
         {"role": "system", "content": "你是擅長擷取/分析文章資訊的人，回答簡短而正確"}, #的dictionary格式回覆，只有一個answer(integer)、confidence(integer%)"},
         {
@@ -32,6 +41,15 @@ def create_messages(prompt):
     return messages
 
 def get_completion(prompt):
+    """
+    Requests a completion from the OpenAI API based on a given prompt.
+
+    Args:
+        prompt (str): The input prompt to send to the API.
+
+    Returns:
+        object: The API response object containing the completion.
+    """
     completion = client.chat.completions.create(
         # model="gpt-4o-mini",
         model="chatgpt-4o-latest",

@@ -2,6 +2,15 @@ import json
 from tqdm import tqdm
 
 def load_json(file_path):
+    """
+    Loads JSON data from a file.
+
+    Args:
+        file_path (str): The path to the JSON file to load.
+
+    Returns:
+        dict: The data loaded from the JSON file.
+    """
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 

@@ -10,6 +10,15 @@ import time
 
 # 載入參考資料，返回一個字典，key為檔案名稱，value為txt檔內容的文本
 def load_data(source_path):
+    """
+    Loads text data from a folder, where each text file is read into a dictionary.
+
+    Args:
+        source_path (str): The directory containing text files.
+
+    Returns:
+        dict: A dictionary with file names as integer keys and file contents as values.
+    """
     masked_file_ls = os.listdir(source_path)  # 獲取資料夾中的檔案列表
     corpus_dict = {}
     for file in tqdm(masked_file_ls):
@@ -26,17 +35,48 @@ def load_data(source_path):
 
 # 讀取單個TXT文件並返回其文本內容
 def read_txt(txt_loc, page_infos: list = None):
+    """
+    Reads a single text file and returns its content.
+
+    Args:
+        txt_loc (str): The file path of the text file to read.
+        page_infos (list, optional): Not used but kept for compatibility.
+
+    Returns:
+        str: The content of the text file.
+    """
     with open(txt_loc, 'r', encoding='utf-8') as file:
         txt_content = file.read()  # 讀取TXT文件的全部內容
     return txt_content  # 返回讀取的文本內容
 
 # 讀取標籤文件並返回其內容
 def load_label(label_path):
+    """
+    Loads label data from a JSON file.
+
+    Args:
+        label_path (str): The path to the label file.
+
+    Returns:
+        dict: A dictionary containing label data.
+    """
     with open(label_path, 'r', encoding='utf-8') as file:
         label_dict = json.load(file)
     return label_dict
 
 def source_select(qs, source, corpus_dict, label_dict):
+    """
+    Selects source documents based on keyword matching from the label dictionary.
+
+    Args:
+        qs (str): The query string.
+        source (list): List of source document IDs.
+        corpus_dict (dict): The corpus dictionary with document IDs and content.
+        label_dict (dict): The label dictionary containing mappings of keywords to sources.
+
+    Returns:
+        list: A list of selected source document IDs.
+    """
     qs_keys = []
     for key in label_dict.keys():
         if re.search(key, qs):
@@ -53,6 +93,17 @@ def source_select(qs, source, corpus_dict, label_dict):
     return selected_source
 
 def get_prompt(qs, source, corpus_dict):
+    """
+    Generates a prompt for GPT based on the query and selected source documents.
+
+    Args:
+        qs (str): The query string.
+        source (list): List of source document IDs.
+        corpus_dict (dict): The corpus dictionary with document IDs and content.
+
+    Returns:
+        str: The generated prompt string for GPT.
+    """
     source_content = "\n".join([f'{file}:\n{corpus_dict[int(file)]}\n' for file in source])
     prompt = f'''
 Q:{qs}
@@ -78,6 +129,16 @@ source:
     return prompt
 
 def get_GPTanswer(prompt):
+    """
+    Sends a prompt to GPT and processes the response to extract answer and confidence.
+
+    Args:
+        prompt (str): The input prompt for GPT.
+
+    Returns:
+        tuple: A tuple (answer, confidence, is_success), where `answer` is the selected document ID,
+               `confidence` is the confidence level as an integer, and `is_success` is a boolean indicating success.
+    """
     is_success = True
     try:
         result = get_completion(prompt)
