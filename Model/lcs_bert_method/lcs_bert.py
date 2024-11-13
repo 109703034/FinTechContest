@@ -5,12 +5,32 @@ from transformers.utils import logging
 from transformers import BertTokenizer, BertForMultipleChoice
 
 def load_data_from_txt(source_path):
+    """
+    Loads text data from files in a directory and stores it in a dictionary.
+
+    Args:
+        source_path (str): The path to the directory containing text files.
+
+    Returns:
+        dict: A dictionary where each key is the file name (as an integer) and the value is the file content as a string.
+    """
     masked_file_ls = os.listdir(source_path)  # 獲取資料夾中的檔案列表
     corpus_dict = {int(file.replace('.txt', '')): open(os.path.join(source_path, file), 'r', encoding='utf-8').read() for file in tqdm(masked_file_ls)} 
     # corpus_dict = {int(file.replace('.txt', '')): open(os.path.join(source_path, file), 'r', encoding='utf-8').read().replace("\n","") for file in tqdm(masked_file_ls)} 
     return corpus_dict
 
 def top_n_longest_common_substrings(str1, str2, N):
+    """
+    Finds the top N longest common substrings between two strings.
+
+    Args:
+        str1 (str): The first string.
+        str2 (str): The second string.
+        N (int): The number of longest substrings to return.
+
+    Returns:
+        list: A list of the top N longest common substrings.
+    """
     m, n = len(str1), len(str2)
     lcs_matrix = [[0] * (n + 1) for _ in range(m + 1)]
     substring_dict = {}
@@ -37,6 +57,17 @@ def top_n_longest_common_substrings(str1, str2, N):
     return top_n_substrings
 
 def lcs_bert_calculation(question: str, source: list[int], corpus_dict: dict[int, str]):
+    """
+    Calculates the best matching document ID based on longest common substrings and BERT scoring.
+
+    Args:
+        question (str): The question text.
+        source (list[int]): A list of document IDs to consider.
+        corpus_dict (dict[int, str]): A dictionary with document IDs as keys and document texts as values.
+
+    Returns:
+        int: The document ID that best matches the question.
+    """
     max_total_length, index_list = 0, []
     for i, doc in enumerate([corpus_dict[file] for file in source]):
         doc = doc.replace(" ", "")

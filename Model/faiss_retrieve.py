@@ -10,20 +10,59 @@ from typing import List, Dict, Tuple
 from collections import Counter
 import argparse
 class ImprovedFAISSRetriever:
+    """
+    A retriever that utilizes FAISS and Sentence-BERT to perform efficient document retrieval
+    based on semantic and keyword matching.
+    """
+
     def __init__(self, model_name='shibing624/text2vec-base-chinese'):
+        """
+        Initializes the ImprovedFAISSRetriever with a sentence embedding model.
+
+        Args:
+            model_name (str): The model name to load with SentenceTransformer.
+                Defaults to 'shibing624/text2vec-base-chinese'.
+        """
         self.encoder = SentenceTransformer(model_name)
         self.window_size = 3  
         
     def preprocess_text(self, text: str) -> str:
+        """
+        Preprocesses the input text by removing extra whitespace and non-Chinese characters.
+
+        Args:
+            text (str): The text to preprocess.
+
+        Returns:
+            str: The cleaned text.
+        """
         text = re.sub(r'\s+', ' ', text.strip())
         text = re.sub(r'[^\w\s\u4e00-\u9fff，。！？]', '', text)
         return text
     
     def get_keywords(self, text: str) -> List[str]:
+        """
+        Extracts keywords from the text using Jieba for tokenization.
+
+        Args:
+            text (str): The input text to extract keywords from.
+
+        Returns:
+            List[str]: A list of keywords with a minimum length of 2 characters.
+        """
         words = jieba.cut(text)
         return [w for w in words if len(w.strip()) > 1]
     
     def split_document(self, text: str) -> List[str]:
+        """
+        Splits the document into windows of paragraphs for indexing.
+
+        Args:
+            text (str): The document text to split.
+
+        Returns:
+            List[str]: A list of paragraph windows with minimum length of 50 characters.
+        """
         paragraphs = [p.strip() for p in text.split('\n') if p.strip()]
         windows = []
         for i in range(len(paragraphs)):
@@ -36,6 +75,16 @@ class ImprovedFAISSRetriever:
         return windows
     
     def build_index(self, txt_folders: Dict[str, str], faq_path: str):
+        """
+        Builds FAISS indices for each document category by encoding and indexing document segments.
+
+        Args:
+            txt_folders (Dict[str, str]): A dictionary of category to folder path mappings.
+            faq_path (str): The path to the FAQ JSON file.
+
+        Returns:
+            None
+        """
         # 存儲文檔段落及其對應的嵌入
         self.doc_segments = {
             "finance": {},  # pid -> [segments]
@@ -101,6 +150,18 @@ class ImprovedFAISSRetriever:
     
     def get_combined_score(self, query_embedding: np.ndarray, doc_embedding: np.ndarray, 
                           query_keywords: List[str], doc_text: str) -> float:
+        """
+        Computes a combined score based on semantic similarity, keyword overlap, and text length.
+
+        Args:
+            query_embedding (np.ndarray): The embedding of the query text.
+            doc_embedding (np.ndarray): The embedding of the document text.
+            query_keywords (List[str]): A list of keywords from the query.
+            doc_text (str): The document text.
+
+        Returns:
+            float: The final score combining similarity, keyword match, and length penalty.
+        """        
         # 1. 計算語義相似度（使用內積而不是L2距離）
         semantic_score = np.dot(query_embedding, doc_embedding) / (
             np.linalg.norm(query_embedding) * np.linalg.norm(doc_embedding))
@@ -122,6 +183,15 @@ class ImprovedFAISSRetriever:
         return final_score
     
     def search(self, question_data: Dict) -> int:
+        """
+        Searches for the best matching document based on the query.
+
+        Args:
+            question_data (Dict): A dictionary containing 'query', 'category', and 'source' fields.
+
+        Returns:
+            int: The PID of the best matching document.
+        """
         query = question_data["query"]
         category = question_data["category"]
         source_pids = question_data["source"]
@@ -172,6 +242,16 @@ class ImprovedFAISSRetriever:
         return best_pid
 
     def process_questions(self, questions_file: str, output_file: str):
+        """
+        Processes a list of questions and saves the best matching document IDs to a file.
+
+        Args:
+            questions_file (str): Path to the JSON file containing questions.
+            output_file (str): Path to the output JSON file to save results.
+
+        Returns:
+            None
+        """
         with open(questions_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
