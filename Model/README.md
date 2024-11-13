@@ -10,20 +10,20 @@
 
 ## Architecture and Explanation
 ```
-Parse_data
-├── insurance (TXT data parsed from official reference PDF)
-│   ├── 0.txt
+Model
+├── insurance (TXT data parsed from official reference PDF, and is moved from Preprocess folder)
+│   ├── 1.txt
 │   ├── ...
 │   └── 643.txt
-├── finance (TXT data parsed from official reference PDF)
+├── finance (TXT data parsed from official reference PDF, and is moved from Preprocess folder)
 │   ├── 0.txt
 │   ├── ...
 │   └── 1034.txt
-├── finance_noBlank (finance data without any whitespace characters)
+├── finance_noBlank (finance data without any whitespace characters, and is moved from Preprocess folder)
 │   ├── 0.txt
 │   ├── ...
 │   └── 1034.txt
-├── faq (official reference JSON)
+├── faq (official reference JSON, and is moved from Preprocess folder)
 │   └── pid_map_content.json
 ├── label (labels of finance files)
 │   ├── financeCompanyList.json
@@ -60,13 +60,10 @@ Parse_data
 └── README.md
 ```
 
-
-
-
 # How to run faiss_retrieve.py in FAISS method 
 
 ```bash
-python faiss_retrieve.py --question_path prelimilary/questions_preliminary.json --source_path ./ --output_path result/faiss.json
+python3 faiss_retrieve.py --question_path prelimilary/questions_preliminary.json --source_path ./ --output_path result/faiss.json
 ```
 
 positional arguments: [REQUIRED]
@@ -75,29 +72,9 @@ positional arguments: [REQUIRED]
 - output_path: path to the output json  
 
 
-
-
 # How to run lcs_retrieve.py in lcs_bert_method
-## Versions and Packages
-* python3==3.10.12
-* tqdm==4.66.4
-* torch==2.3.0
-* transformers==4.46.1
-## Architecture
-```
-upper directory
-├── finance (txt data folder)
-├── insurance (txt data folder)
-├── faq (txt data folder)
-├── preliminary 
-│   └── questions_preliminary.json (questions of preliminary)
-├── lcs_bert_method
-│   ├── lcs_bert_retrieve.py
-│   └── lcs_bert.py
-└── lcs.json (output when finish running the codes)
-```
 ## Steps
-1. place `finance`, `insurance` and `faq` folder (dataset in txt) in the upper directory
+1. place `finance`, `insurance` and `faq` folder (dataset in txt) in the `Model` directory
 2. place questions (questions_preliminary.json) in `preliminary` folder
 3. cd `/lcs_bert_method`
 4. run the following codes:
@@ -106,33 +83,30 @@ upper directory
     ```
 5. get `lcs.json` as the result of using lcs and bert-based method
 
-
-
-
 # How to run GPT_retrieve.py to get prediction of ChatGPT
 
 ### Step 1. Run GPT_retrieve.py
 
 (1) Insurance:
 ```bash
-python GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c insurance
+python3 GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c insurance
 ```
 -> Get prediction of insurance at `GPT_inference/pred_GPT_insurance.json`
 
 (2) Finance
 ```bash
-python GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c fin_select
+python3 GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c fin_select
 ```
 -> Get prediction of finance (mapping the labels of question and sources first) at `GPT_inference/pred_GPT_fin_select.json`
 
 ```bash
-python GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c fin_all
+python3 GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c fin_all
 ```
 -> Get prediction of finance at `GPT_inference/pred_GPT_fin_all.json`
 
 (3) FAQ
 ```bash
-python GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c faq
+python3 GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -s . -l label/ -o GPT_inference/ -c faq
 ```
 -> Get prediction of faq at `GPT_inference/pred_GPT_faq.json`
 
@@ -142,40 +116,23 @@ python GPT_inference/GPT_retrieve.py -q preliminary/questions_preliminary.json -
 cd GPT_inference
 ```
 ```bash
-python finance_emsemble.py
+python3 finance_emsemble.py
 ```
 -> Get integrated prediction of finance at `GPT_inference/pred_GPT_fin_merge.json`
 
 ### Step 3. Combine all catogory results
 
 ```bash
-python mergeJSON.py
+python3 mergeJSON.py
 ```
 
 Finally, the ChatGPT prediction JSON file will be in `result/gpt.json`
 
-
-
-
 # How to run ensemble.py to get the best ensemble result
-## Versions and Packages
-* python3==3.10.12
-* tqdm==4.66.4
-## Architecture
-```
-upper directory
-├── preliminary 
-│   └── questions_preliminary.json (questions of preliminary)
-├── result
-│   ├── faiss.json
-│   ├── lcs.json
-│   └── gpt.json
-└── ensemble.json (output when finish running the codes)
-```
 ## Steps
 1. place `faiss.json`, `lcs.json` and `gpt.json` folder (result of the three methods) in the `result` directory
 2. place questions (questions_preliminary.json) in `preliminary` folder
-3. cd `/upper directory`
+3. cd `Model/`
 4. run the following codes:
     ```
     python3 ensemble.py
