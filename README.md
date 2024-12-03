@@ -1,6 +1,10 @@
-# How to run codes
-1. See `README.md` in `Preprocess` folder, and follow the instructions.
-2. See `README.md` in `Model` folder, and follow the instructions.
+# Implementation Flowchart
+![Flowchart](images/Flowchart.png)
+
+## How to Run the Code
+1. See `README.md` in the `Preprocess` folder and follow the instructions.
+2. See `README.md` in the `Model` folder and follow the instructions.
+
 ## Architecture
 ```
 .

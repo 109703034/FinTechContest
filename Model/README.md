@@ -1,35 +1,35 @@
 # 使用方法及模型介紹
 
-我們使用三種方法，分別得到三種不同的 retrieve prediction，  
-再用 (FAISS) * 0.3 + (LCS+Bert) * 0.3 + (GPT-4o) * 0.4  的權重做 ensemble，  
+我們使用**三種方法 (如下)**，分別得到三種不同的 retrieve prediction，  
+再用 **(FAISS) * 0.3 + (LCS+Bert) * 0.3 + (GPT-4o) * 0.4** 的權重做 ensemble，  
 取得最終版本的 prediction 結果。
 
 ## 1. FAISS (Facebook AI Similarity Search)
 
 1. **初始化**:  
-    用 Sentence-BERT 模型來生成句子嵌入，並設定參數，例如 window_size。
+    使用 `Sentence-BERT` 模型生成 word embedding，並設定參數，例如 `window_size`。
 
 2. **文本前處理**:
     * 移除多餘的空白和非中文字符。
-    * 使用 Jieba 進行分詞，提取文本中的關鍵詞。
+    * 使用 `Jieba` 進行分詞，提取文本中的關鍵詞。
 
 3. **計算分數**:  
     | 項目           | 描述                                         | 權重 |
     |----------------|----------------------------------------------|------|
-    | 語義相似度     | 使用**內積**，計算問題與選項文檔，word embeddings 的相似度   | 0.5  |
-    | 關鍵詞匹配得分 | 計算問題關鍵字，與文檔關鍵詞之間的重疊程度     | 0.4  |
+    | 語義相似度     | 使用**內積**計算問題與選項文檔的 word embeddings 相似度 | 0.5  |
+    | 關鍵詞匹配     | 計算問題關鍵字與文檔關鍵詞之間的重疊程度     | 0.4  |
     | 長度懲罰        | 避免過短的文本                               | 0.1  |
 
-依據計算出的分數，inference 出最佳答案，輸出為 `faiss.json`
-
+根據計算出的分數，推理出最佳答案，輸出為 `faiss.json`。
 
 ## 2. LCS + Bert
 
 1. **LCS (Longest Common Subsequence)**:  
-    先用 LCS 計算問題與選項文檔的共同子序列，篩選出最長的文檔
+    使用 LCS 計算問題與選項文檔的共同子序列，篩選出最長的文檔。
 
 2. **BERT**:  
-    當多個文檔子序列長度相同時，利用預訓練的中文 BERT 模型，挑選出與問題最相關的文檔
+    當多個文檔子序列長度相同時，利用預訓練的中文 BERT 模型，挑選出與問題最相關的文檔，  
+    最後輸出為 `lcs.json`。
 
 
 ## 3. GPT-4o  
@@ -47,7 +47,7 @@
         - 以模擬信心指數高低合併結果，輸出 `pred_GPT_fin_merge.json`
 
 3. **整合**  
-    直接合併所有結果 (`pred_GPT_insurance.json`、`pred_GPT_faq.json`、`pred_GPT_fin_merge.json`)，輸出為 `gpt.json`
+    直接合併所有結果 (`pred_GPT_insurance.json`、`pred_GPT_faq.json`、`pred_GPT_fin_merge.json`)，輸出為 `gpt.json`。
 
 -------
 
