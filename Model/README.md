@@ -32,7 +32,7 @@
     當多個文檔子序列長度相同時，利用預訓練的中文 BERT 模型，挑選出與問題最相關的文檔
 
 
-## 3. GPT-4o (model: chatgpt-4o-latest)
+## 3. GPT-4o  
 
 1. **使用 ChatGPT API**  
     使用 `chatgpt-4.0-latest` 及預先寫好的 prompt。
@@ -46,7 +46,7 @@
         - 不匹配直接處理，輸出 `pred_GPT_fin_all.json`  
         - 以模擬信心指數高低合併結果，輸出 `pred_GPT_fin_merge.json`
 
-3. **最終整合**  
+3. **整合**  
     直接合併所有結果 (`pred_GPT_insurance.json`、`pred_GPT_faq.json`、`pred_GPT_fin_merge.json`)，輸出為 `gpt.json`
 
 -------
